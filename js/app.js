@@ -86,11 +86,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Filter by search term
     if (searchTerm) {
-      filtered = filtered.filter(m => 
-        m.nome.toLowerCase().includes(searchTerm) || 
-        m.modelo.toLowerCase().includes(searchTerm) || 
-        m.codigo.toLowerCase().includes(searchTerm)
-      );
+      const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
+      filtered = filtered.filter(m => {
+        const fullString = `${m.nome} ${m.modelo} ${m.codigo} ${m.familia}`.toLowerCase();
+        // Return true if EVERY typed word exists in the full string
+        return searchWords.every(word => fullString.includes(word));
+      });
     }
 
     // Update info text
@@ -164,11 +165,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Autocomplete ---
   function showAutocomplete(term) {
-    const matches = maquinasMock.filter(m => 
-      m.nome.toLowerCase().includes(term) || 
-      m.modelo.toLowerCase().includes(term) || 
-      m.codigo.toLowerCase().includes(term)
-    );
+    const searchWords = term.split(' ').filter(w => w.length > 0);
+    const matches = maquinasMock.filter(m => {
+      const fullString = `${m.nome} ${m.modelo} ${m.codigo}`.toLowerCase();
+      return searchWords.every(word => fullString.includes(word));
+    });
 
     autocompleteResults.innerHTML = '';
     
