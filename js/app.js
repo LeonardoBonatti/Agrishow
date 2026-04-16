@@ -204,6 +204,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Modal Logic ---
   function openModal(machine) {
+    const commercialKeys = ['VALOR FEIRA', 'BORSO', 'Preço CPQ 14%', 'SPAR', 'Desconto Vigente PSC'];
+    let techHtml = '';
+    let currHtml = '';
+
+    if (machine.detalhes) {
+      Object.entries(machine.detalhes).forEach(([key, value]) => {
+        if (value === undefined || value === '-' || value === null || String(value).trim() === '') return;
+        
+        let valStr = String(value);
+        if (key.toLowerCase().includes('preço') || key.toLowerCase().includes('spar') || key.toLowerCase().includes('preco') || key.toUpperCase() === 'VALOR FEIRA' || key.toUpperCase() === 'BORSO') {
+          const num = parseFloat(value);
+          if (!isNaN(num)) {
+            valStr = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(num);
+          }
+        }
+
+        if (key.toLowerCase().includes('desconto') || key.toLowerCase().includes('margem')) {
+          const num = parseFloat(value);
+          if (!isNaN(num) && num < 10 && num > -10) { 
+            valStr = (num * 100).toFixed(1) + '%';
+          } else if (!isNaN(num)) {
+            valStr = num + '%';
+          }
+        }
+
+        const itemHtml = `
+          <div class="modal-spec-item">
+            <span class="spec-label">${key}</span>
+            <div class="spec-value">${valStr}</div>
+          </div>
+        `;
+
+        // Case-insensitive check to categorize the key
+        const isCommercial = commercialKeys.some(cKey => cKey.toLowerCase() === key.toLowerCase());
+
+        if (isCommercial) {
+          currHtml += itemHtml;
+        } else {
+          techHtml += itemHtml;
+        }
+      });
+    }
+
+    if (!currHtml) {
+      currHtml = `<div class="empty-state" style="padding: 1rem 0;"><h3>Valores não disponíveis</h3></div>`;
+    }
+
     modalBody.innerHTML = `
       <div class="modal-hero">
         <img src="${machine.imagem}" alt="${machine.nome}">
@@ -215,44 +262,29 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="mc-stripe" style="width: 60px;"></div>
         </div>
         
-        <div class="modal-spec-list">
-          <div class="modal-spec-item">
-            <span class="spec-label">Modelo</span>
-            <div class="spec-value">${machine.modelo}</div>
-          </div>
-          <div class="modal-spec-item">
-            <span class="spec-label">Material</span>
-            <div class="spec-value">${machine.codigo}</div>
-          </div>
-          ${machine.detalhes ? Object.entries(machine.detalhes).map(([key, value]) => {
-             if (value === undefined || value === '-' || value === null || String(value).trim() === '') return '';
-             
-             let valStr = String(value);
-             // Format currencies
-             if (key.toLowerCase().includes('preço') || key.toLowerCase().includes('spar') || key.toLowerCase().includes('preco')) {
-               const num = parseFloat(value);
-               if (!isNaN(num)) {
-                 valStr = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(num);
-               }
-             }
+        <div class="modal-tabs">
+          <button class="modal-tab-btn active" data-target="tab-tech">Ficha Técnica</button>
+          <button class="modal-tab-btn" data-target="tab-com">Valores & Condições</button>
+        </div>
 
-             // Format percentages smartly
-             if (key.toLowerCase().includes('desconto') || key.toLowerCase().includes('margem')) {
-               const num = parseFloat(value);
-               if (!isNaN(num) && num < 10 && num > -10) { 
-                 valStr = (num * 100).toFixed(1) + '%';
-               } else if (!isNaN(num)) {
-                 valStr = num + '%';
-               }
-             }
+        <div id="tab-tech" class="modal-tab-content active">
+          <div class="modal-spec-list">
+            <div class="modal-spec-item">
+              <span class="spec-label">Modelo</span>
+              <div class="spec-value">${machine.modelo}</div>
+            </div>
+            <div class="modal-spec-item">
+              <span class="spec-label">Material</span>
+              <div class="spec-value">${machine.codigo}</div>
+            </div>
+            ${techHtml}
+          </div>
+        </div>
 
-             return `
-              <div class="modal-spec-item">
-                <span class="spec-label">${key}</span>
-                <div class="spec-value">${valStr}</div>
-              </div>
-             `
-          }).join('') : ''}
+        <div id="tab-com" class="modal-tab-content">
+          <div class="modal-spec-list">
+            ${currHtml}
+          </div>
         </div>
         
         <div style="margin-top: 2rem;">
@@ -262,6 +294,22 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
     `;
+
+    // Tab switching logic
+    const tabBtns = modalBody.querySelectorAll('.modal-tab-btn');
+    const tabContents = modalBody.querySelectorAll('.modal-tab-content');
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabContents.forEach(c => c.classList.remove('active'));
+        
+        btn.classList.add('active');
+        const targetId = btn.getAttribute('data-target');
+        modalBody.querySelector('#' + targetId).classList.add('active');
+      });
+    });
+
     modalOverlay.classList.remove('hidden');
     // Prevent background scrolling
     document.body.style.overflow = 'hidden';

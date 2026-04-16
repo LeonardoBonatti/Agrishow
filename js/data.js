@@ -8,7 +8,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+120%20LVR",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " ALAVANCAS, TOP ADJUST, TELA TOUCH SCREEN, MEDIDOR DIGITAL DE INCLINAÇÃO DA LAMINA, LUZES EM LED",
+      "Configuração": "ALAVANCAS, TOP ADJUST, TELA TOUCH SCREEN, MEDIDOR DIGITAL DE INCLINAÇÃO DA LAMINA, LUZES EM LED, LÂMINA DE 4,3M  , RIPPER C/ 5 DENTES, PNEU DIAGONAL 17.5-25 16 LONAS",
       "Contato com o solo": "PNEU DIAGONAL 17.5-25 16 LONAS",
       "Peso Operacional": "15.699Kg",
       "Motor": "C7.1 - 125hp",
@@ -20,7 +20,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1238383.5,
-      "SPAR": 1188848.16
+      "SPAR": 1188848.16,
+      "VALOR FEIRA": 1180000,
+      "BORSO": 30000
     }
   },
   {
@@ -32,7 +34,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+140%20GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " ALAVANCAS, LUZES HALÓGENAS",
+      "Configuração": "NACIONAL, ALAVANCAS, LUZES HALÓGENAS, LÂMINA DE 4,3M  , RIPPER C/ 5 DENTES E ESCARIFICADOR C/ 9 DENTES, PNEU DIAGONAL 17.5-25 16 LONAS",
       "Contato com o solo": "PNEU DIAGONAL 17.5-25 16 LONAS",
       "Peso Operacional": "17.305Kg",
       "Motor": "C7.1 - 176hp",
@@ -44,7 +46,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.11,
       "Preço CPQ 14%": 1119790.03,
-      "SPAR": 1074998.4287999999
+      "SPAR": 1074998.4287999999,
+      "VALOR FEIRA": 1070000,
+      "BORSO": 30000
     }
   },
   {
@@ -178,7 +182,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+250",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "FLUXO PADRÃO (STANDARD FLOW), JOYSTICK ELETRONICO, TECNOLOGIAS DE LEVANTAMENTO, PL, CAMERA DE RÉ, 1 VELOCIDADE,  ASSENTO VINIL, SEM CONTRAPESO",
+      "Configuração": "FLUXO PADRÃO (STANDARD FLOW), CAPACIDADE OPERACIONAL 1220 KG, JOYSTICK ELETRONICO, TECNOLOGIAS DE LEVANTAMENTO, PL, CAMERA DE RÉ, 1 VELOCIDADE, PNEU 10/16,5, ASSENTO VINIL, SEM CONTRAPESO, CACAMBA 1883MM",
       "Contato com o solo": "PNEU 10/16,5",
       "Peso Operacional": "3.551Kg",
       "Motor": "C2.8T - 74hp",
@@ -192,7 +196,9 @@ const maquinasMock = [
       "Preço CPQ 14%": 370295.28,
       "SPAR": 355483.46880000003,
       "Opcionais": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS), JOYSTICK AVANÇADO, MONITOR AVANÇADO, 2 VELOCIDADES, ASSENTO TECIDO, CONTRAPESO ADICIONAL",
-      "Preço opcionais": 25500
+      "Preço opcionais": 25500,
+      "VALOR FEIRA": 370000,
+      "BORSO": 10000
     }
   },
   {
@@ -204,7 +210,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+260",
     "detalhes": {
       "Arranjo": "02",
-      "Configuração": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS,  JOYSTICK AVANÇADO, MONITOR AVANÇADO, TECNOLOGIAS DE LEVANTAMENTO, PL, CAMERA DE RÉ, 2 VELOCIDADES, ASSENTO TECIDO,CONTRAPESO ADICIONAL",
+      "Configuração": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS, CAPACIDADE OPERACIONAL 1540 KG, JOYSTICK AVANÇADO, MONITOR AVANÇADO, TECNOLOGIAS DE LEVANTAMENTO, PL, CAMERA DE RÉ, 2 VELOCIDADES, PNEU 12/16,5, ASSENTO TECIDO, CONTRAPESO ADICIONAL, CACAMBA 2036MM",
       "Contato com o solo": " PNEU 12/16,5",
       "Peso Operacional": "3.866Kg",
       "Motor": "C2.8T - 74hp",
@@ -216,7 +222,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 438417.45,
-      "SPAR": 420880.752
+      "SPAR": 420880.752,
+      "VALOR FEIRA": 440000,
+      "BORSO": 10000
     }
   },
   {
@@ -252,7 +260,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+302.7",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "ENGATE RÁPIDO MANUAL, JOYSTICK ELETROHIDRÁULICO, CABINE ABERTA REBATÍVEL",
+      "Configuração": "TOLDO, ESTEIRA DE AÇO, ENGATE RÁPIDO MANUAL, JOYSTICK ELETROHIDRÁULICO, CABINE ABERTA REBATÍVEL, CAÇAMBA DE 0,08M³ E 460MM",
       "Contato com o solo": "ESTEIRA DE AÇO",
       "Peso Operacional": "2.925Kg",
       "Motor": "C1.1T - 23,6hp",
@@ -266,7 +274,9 @@ const maquinasMock = [
       "Preço CPQ 14%": 274265.87,
       "SPAR": 263295.2352,
       "Opcionais": "Cabine fechada com ar condicionado, esteira de aço ou borracha",
-      "Preço opcionais": 25000
+      "Preço opcionais": 25000,
+      "VALOR FEIRA": 250000,
+      "BORSO": 5000
     }
   },
   {
@@ -325,7 +335,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+313%20GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "CABINE ROPS, BRACO 2,5M, LANCA 4,65M, PROTEÇÃO DO SWIVEL",
+      "Configuração": "CONSTRUÇÃO GERAL: CABINE ROPS,SAPATA TRIPLA 600MM, BRACO 2,5M, LANCA 4,65M, PROTEÇÃO DO SWIVEL, CAÇ GD 0,53M³",
       "Contato com o solo": "SAPATA TRIPLA 600MM",
       "Peso Operacional": "12.400Kg",
       "Motor": "C3.6 - 95hp",
@@ -337,7 +347,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 589014.02,
-      "SPAR": 565453.4592
+      "SPAR": 565453.4592,
+      "VALOR FEIRA": 555000,
+      "BORSO": 10000
     }
   },
   {
@@ -349,7 +361,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+316%20GC",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "CABINE ROPS, BRACO 2.5M HD, LANCA 4,65M",
+      "Configuração": "TERRAPLANAGEM ALCANCE SD: CABINE ROPS, BRACO 3.0M, LANCA 4,65M, CAÇ SD 0,65M³ (5 DENTES)",
       "Contato com o solo": "SAPATA TRIPLA 600MM",
       "Peso Operacional": "14.600Kg",
       "Motor": "C3.6 - 104hp",
@@ -363,7 +375,9 @@ const maquinasMock = [
       "Preço CPQ 14%": 688013.41,
       "SPAR": 660492.8736,
       "Opcionais": "Braço 3,0m e Valvula aux com linha",
-      "Preço opcionais": 4400
+      "Preço opcionais": 4400,
+      "VALOR FEIRA": 650000,
+      "BORSO": 10000
     }
   },
   {
@@ -375,7 +389,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+318GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "CABINE ROPS, VALVULA AUXILIAR MARTELO SEM LINHA, BRACO 2,6M, LANCA 5,1M",
+      "Configuração": "TERRAPLANAGEM: CABINE ROPS, VALVULA AUXILIAR MARTELO SEM LINHA, SAPATA GARRA TRIPLA 700MM, BRACO 2,6M, LANCA 5,1M, CAÇ GD 0,91M",
       "Contato com o solo": "SAPATA GARRA TRIPLA 700MM",
       "Peso Operacional": "17.500Kg",
       "Motor": "C3.6 - 111hp",
@@ -389,7 +403,9 @@ const maquinasMock = [
       "Preço CPQ 14%": 745471.73,
       "SPAR": 715652.8607999999,
       "Opcionais": "Valvula 2 sentidos e linha hidraulica aux",
-      "Preço opcionais": 30000
+      "Preço opcionais": 30000,
+      "VALOR FEIRA": 705000,
+      "BORSO": 15000
     }
   },
   {
@@ -401,7 +417,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+320",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "VALVULA AUXILIAR, BRACO HD 2,9M, LANCA HD 5,7M",
+      "Configuração": "TERRAPLANAGEM: VALVULA AUXILIAR, SAPATA GARRA TRIPLA 700MM, BRACO HD 2,9M, LANCA HD 5,7M, CAÇ HD 1,4M³",
       "Contato com o solo": "SAPATA GARRA TRIPLA 700MM",
       "Peso Operacional": "21.300Kg",
       "Motor": "C7.1 - 157hp",
@@ -415,7 +431,9 @@ const maquinasMock = [
       "Preço CPQ 14%": 893506.86,
       "SPAR": 857766.5856,
       "Opcionais": "VALVULA AUXILIAR (2 SENTIDOS) + LINHA",
-      "Preço opcionais": 25700
+      "Preço opcionais": 25700,
+      "VALOR FEIRA": 840000,
+      "BORSO": 15000
     }
   },
   {
@@ -427,7 +445,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+320%20GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "VALVULA AUXILIAR MARTELO SEM LINHA, BRACO 2,9M, LANCA 5,7M",
+      "Configuração": "TERRAPLANAGEM: CARRO MÉDIO, VALVULA AUXILIAR, BRACO 2,9M, LANCA 5,7M, CAÇ 1,16M³",
       "Contato com o solo": "CARRO MÉDIO",
       "Peso Operacional": "20.400Kg",
       "Motor": "C4.4 - 143hp",
@@ -441,7 +459,9 @@ const maquinasMock = [
       "Preço CPQ 14%": 784212.58,
       "SPAR": 752844.0767999999,
       "Opcionais": "Linha hidraulica aux",
-      "Preço opcionais": 18700
+      "Preço opcionais": 18700,
+      "VALOR FEIRA": 765000,
+      "BORSO": 10000
     }
   },
   {
@@ -553,7 +573,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+416",
     "detalhes": {
       "Arranjo": "02",
-      "Configuração": "CABINE, 4X4, 4 FUNÇÕES, DENTES,PL",
+      "Configuração": "CABINE, 4X4, 4 FUNÇÕES, DENTES,PL,ESTAB. DE BORRACHA",
       "Contato com o solo": "Pneus Goodyear",
       "Peso Operacional": "11.000Kg",
       "Motor": "C4.4 - 87hp",
@@ -575,7 +595,9 @@ const maquinasMock = [
       "Opcionais_3": "MARTELO B8S, 1 FUNÇÃO Extra + Linha, KEYPAD, PARALAMA,ESTAB. DE BORRACHA",
       "Preço opcionais_3": 69600,
       "Opcionais_4": "5 FUNÇÕES,  BRAÇO EXTENSÍVEL, PARALAMA, ESTAB. DE BORRACHA",
-      "Preço opcionais_4": 30400
+      "Preço opcionais_4": 30400,
+      "VALOR FEIRA": 420000,
+      "BORSO": 5000
     }
   },
   {
@@ -599,7 +621,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
       "Preço CPQ 14%": 504558.49,
-      "SPAR": 484376.1504
+      "SPAR": 484376.1504,
+      "VALOR FEIRA": 495000,
+      "BORSO": 10000
     }
   },
   {
@@ -611,7 +635,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+914",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "PCT DE RECURSOS, CARREG, FILTRO DETRITOS COND. , VENTILADOR REVERSIVEL, PL, PROT A/C",
+      "Configuração": "Não Encontrada",
       "Contato com o solo": "PNEU 17.5-25 L2 GD",
       "Peso Operacional": "8.568Kg",
       "Motor": "C4.4 - 100hp",
@@ -622,7 +646,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
       "Preço CPQ 14%": 511439.34,
-      "SPAR": 490981.7664
+      "SPAR": 490981.7664,
+      "VALOR FEIRA": 530000,
+      "BORSO": 15000
     }
   },
   {
@@ -634,7 +660,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+920",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "REC. ELETR, PL, PROT DO A/C, VENTILADOR REVERSIVEL",
+      "Configuração": "PNEU 17.5-25 L2 GD,  CAÇ 1,9M³ (PO) BORDA, REC. ELETR, PL, PROT DO A/C, VENTILADOR REVERSIVEL",
       "Contato com o solo": "PNEU 17.5-25 L2 GD",
       "Peso Operacional": "9.132Kg",
       "Motor": "C4.4 - 100hp",
@@ -651,7 +677,9 @@ const maquinasMock = [
       "Opcionais_1": "Pneu Michelin 20,5",
       "Preço opcionais_1": 46900,
       "Opcionais_2": "Engate rápido e Pneu Michelin 20,5",
-      "Preço opcionais_2": 60800
+      "Preço opcionais_2": 60800,
+      "VALOR FEIRA": 560000,
+      "BORSO": 10000
     }
   },
   {
@@ -663,7 +691,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+924",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "MERCADO GERAL: PINADO, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
+      "Configuração": "MERCADO GERAL: PNEU DIAGONAL 17.5-25 TITAN, CAÇAMBA 2.1M³ (PINADO) DENTES, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU DIAGONAL 17.5-25 TITAN",
       "Peso Operacional": "11.775Kg",
       "Motor": "C7.1 - 137hp",
@@ -682,7 +710,9 @@ const maquinasMock = [
       "Opcionais_2": "Engate rápido FUSION, CONTRAPESO ADICIONAL, PNEU DIAGONAL 20.5-25 TITAN",
       "Preço opcionais_2": 46000,
       "Opcionais_3": "ENGATE: ENGATE RÁPIDO, PNEU DIAGONAL 17.5-25 GOODYEAR",
-      "Preço opcionais_3": 49700
+      "Preço opcionais_3": 49700,
+      "VALOR FEIRA": 715000,
+      "BORSO": 15000
     }
   },
   {
@@ -694,7 +724,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+930",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "PINADO, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO).",
+      "Configuração": "PNEU RADIAL 20.5R-25 MAXAM, CAÇAMBA 2.5M³ (PINADO) DENTES, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO).",
       "Contato com o solo": "PNEU RADIAL 20.5R-25 MAXAM",
       "Peso Operacional": "13.246Kg",
       "Motor": "C7.1 - 160hp",
@@ -705,7 +735,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.121,
       "Preço CPQ 14%": 920568.2,
-      "SPAR": 883745.472
+      "SPAR": 883745.472,
+      "VALOR FEIRA": 899000,
+      "BORSO": 20000
     }
   },
   {
@@ -717,7 +749,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+938",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "CANA-DE-AÇÚCAR BAGAÇO VOLANTE: VOLANTE, MONITOR 8\", CÂMERA DE RÉ, HÉLICE REVERSÍVEL, FARÓIS LED, PRODUCT LINK DUAL (HÍBRIDO), ASSENTO PREMIUM, GIROFLEX.",
+      "Configuração": "CANA-DE-AÇÚCAR BAGAÇO VOLANTE: PNEU AGRÍCOLA 750/65R26 MICHELIN, VOLANTE, CAÇAMBA BAGAÇO 6.0M³ (PO) BORDAS, MONITOR 8\", CÂMERA DE RÉ, HÉLICE REVERSÍVEL, FARÓIS LED, PRODUCT LINK DUAL (HÍBRIDO), ASSENTO PREMIUM, GIROFLEX.",
       "Contato com o solo": "PNEU AGRÍCOLA 750/65R26 MICHELIN",
       "Peso Operacional": "15.399Kg",
       "Motor": "C7.1 - 188hp",
@@ -728,7 +760,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.086,
       "Preço CPQ 14%": 1117274.89,
-      "SPAR": 1072583.8943999999
+      "SPAR": 1072583.8943999999,
+      "VALOR FEIRA": 1130000,
+      "BORSO": 30000
     }
   },
   {
@@ -740,7 +774,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+938",
     "detalhes": {
       "Arranjo": "04",
-      "Configuração": "CONTRUÇÃO: PINADO, VENTILADOR REVERSÍVEL, MONITOR 8\", CÂMERA DE RÉ, ASSENTO COM SENSOR DE PRESENÇA, PRODUCT LINK DUAL (HÍBRIDO)",
+      "Configuração": "CONTRUÇÃO: PNEU RADIAL 20.5R25 MICHELIN, CAÇAMBA 2.7M³ (PINADO) DENTES, VENTILADOR REVERSÍVEL, MONITOR 8\", CÂMERA DE RÉ, ASSENTO COM SENSOR DE PRESENÇA, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU RADIAL 20.5R25 MICHELIN",
       "Peso Operacional": "15.399Kg",
       "Motor": "C7.1 - 188hp",
@@ -751,7 +785,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.086,
       "Preço CPQ 14%": 1104638.82,
-      "SPAR": 1060453.2672000001
+      "SPAR": 1060453.2672000001,
+      "VALOR FEIRA": 1040000,
+      "BORSO": 20000
     }
   },
   {
@@ -786,7 +822,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+950GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " PAYLOAD, EIXO ARREFECIDO, 2V SEM RIDE CONTROL, 04 LUZES HALÓGENAS, VENTILADOR REVERSÍVEL, PRÉ-PURIFICADOR TURBINA, CONTRAPESO PADRÃO",
+      "Configuração": "PAYLOAD, EIXO ARREFECIDO, 2V SEM RIDE CONTROL, 04 LUZES HALÓGENAS, VENTILADOR REVERSÍVEL, PRÉ-PURIFICADOR TURBINA, CONTRAPESO PADRÃO, CAÇAMBA GP 3.40m³, PNEUS L3",
       "Contato com o solo": "PNEUS L3",
       "Peso Operacional": "18.676Kg",
       "Motor": "C7.1 - 202hp",
@@ -797,7 +833,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1095369.5,
-      "SPAR": 1051554.72
+      "SPAR": 1051554.72,
+      "VALOR FEIRA": 1040000,
+      "BORSO": 20000
     }
   },
   {
@@ -1062,7 +1100,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+CS10GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " CABINE PREMIUM, KIT PATAS, MDP, ASSENTO DE TECIDO",
+      "Configuração": "CABINE PREMIUM, KIT PATAS, MDP, ASSENTO DE TECIDO",
       "Contato com o solo": "Chapa",
       "Peso Operacional": "10.492Kg",
       "Motor": "C4.4 - 112hp",
@@ -1073,7 +1111,9 @@ const maquinasMock = [
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
       "Preço CPQ 14%": 622646.33,
-      "SPAR": 597740.4768
+      "SPAR": 597740.4768,
+      "VALOR FEIRA": 565000,
+      "BORSO": 10000
     }
   },
   {
@@ -1108,7 +1148,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+CS11GC",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " CABINE PREMIUM, KIT PATAS, MDP, ASSENTO DE TECIDO",
+      "Configuração": "CABINE PREMIUM, KIT PATAS, MDP, ASSENTO DE TECIDO",
       "Contato com o solo": "Chapa",
       "Peso Operacional": "11.235Kg",
       "Motor": "C4.4 - 112hp",
@@ -1119,7 +1159,9 @@ const maquinasMock = [
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
       "Preço CPQ 14%": 659264.12,
-      "SPAR": 632893.5552
+      "SPAR": 632893.5552,
+      "VALOR FEIRA": 598000,
+      "BORSO": 10000
     }
   },
   {
@@ -1187,7 +1229,9 @@ const maquinasMock = [
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.103,
       "Preço CPQ 14%": 797908.14,
-      "SPAR": 765991.8144
+      "SPAR": 765991.8144,
+      "VALOR FEIRA": 710000,
+      "BORSO": 15000
     }
   },
   {
@@ -1199,7 +1243,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+D4",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "GRADE 2D, CÂMERA DE RÉ, PRÉ- PURIFICADOR TURBINA, VENTILADOR REVERSÍVEL, LUZES EM LED",
+      "Configuração": "LÂMINA VPAT DE 3.3m³, SAPATA DE 560mm, GRADE 2D, CÂMERA DE RÉ, PRÉ- PURIFICADOR TURBINA, VENTILADOR REVERSÍVEL, LUZES EM LED, RIPPER COM 3 DENTES",
       "Contato com o solo": "SAPATA DE 560mm",
       "Peso Operacional": "13.500Kg",
       "Motor": "C7.1 - 130hp",
@@ -1210,7 +1254,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1128748.12,
-      "SPAR": 1083598.1952
+      "SPAR": 1083598.1952,
+      "VALOR FEIRA": 1085000,
+      "BORSO": 40000
     }
   },
   {
@@ -1222,7 +1268,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+D5",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "PRÉ-PURIFICADOR TURBINA, TELA TOUCHSCRREN 10\", COM TECNOLOGIA 2D, 06 LUZES EM LED, VENTILADOR REVERSÍVEL",
+      "Configuração": "VPAT, SAPATA 560MM ES HDXL CTWS, PRÉ-PURIFICADOR TURBINA, TELA TOUCHSCRREN 10\", COM TECNOLOGIA 2D, 06 LUZES EM LED, VENTILADOR REVERSÍVEL, RIPPER COM 3 DENTES",
       "Contato com o solo": "SAPATA 560MM ES HDXL CTWS",
       "Peso Operacional": "19.070Kg",
       "Motor": "C7.1 - 170hp",
@@ -1233,7 +1279,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1460542.41,
-      "SPAR": 1402120.7136
+      "SPAR": 1402120.7136,
+      "VALOR FEIRA": 1410000,
+      "BORSO": 60000
     }
   },
   {
@@ -1358,7 +1406,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM618D",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "TRANSMISSAO ZL15, EIXO ZL16, ENGATE RAPIDO COM PINO HORIZONTAL, 3a VALVULA E AR CONDICIONADO",
+      "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG, POTENCIA NOMINAL BRUTA DE 62,5KW (84HP), POTENCIA NO VOLANTE DE 62,5KW, MOTOR DE 4,7 LITROS DE CILINDRADAS, 2.200 RPM, MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COMBUSTÍVEL DIESEL, TRANSMISSÃO ZL15, EIXO ZL16, COM DISPOSITIVO DE ENGATE RÁPIDO COM PINO HORIZONTAL, CAÇAMBA, GARFO PALLET, 3a VALVULA E AR CONDICIONADO MODELO SEM618D, MARCA SEM.",
       "Contato com o solo": "Pneus",
       "Motor": "YTO 4.7 - 84hp",
       "Ferramentas": "CACAMBA DE 1.0M3 e  GARFO PALLET",
@@ -1367,7 +1415,9 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
-      "SPAR": 0
+      "SPAR": 0,
+      "VALOR FEIRA": 270000,
+      "BORSO": 10000
     }
   },
   {
@@ -1379,7 +1429,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM618D",
     "detalhes": {
       "Arranjo": "05",
-      "Configuração": "TRANSMISSÃO ZL15, EIXO ZL16.",
+      "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, DE CARREGAMENTO FRONTAL, MARCA SEM, MODELO SEM618D, AUTOPROPULSADA, COMBUSTIVEL DIESEL, COM MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG , POTENCIA NOMINAL BRUTA DE 62,5KW/84HP, MOTOR DE 4,7 LITROS DE CILINDRADAS, 2.200 RPM,TRANSMISSÃO ZL15, EIXO ZL16.",
       "Contato com o solo": "Pneus",
       "Motor": "YTO 4.7 - 84hp",
       "Ferramentas": "CACAMBA DE 1.0M3",
@@ -1388,7 +1438,9 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
-      "SPAR": 0
+      "SPAR": 0,
+      "VALOR FEIRA": 260000,
+      "BORSO": 10000
     }
   },
   {
@@ -1421,7 +1473,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM636D",
     "detalhes": {
       "Arranjo": "08",
-      "Configuração": "ENGATE RAPIDO-QC, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO",
+      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM ENGATE RAPIDO-QC, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW, POTENCIA NO VOLANTE DE 92KW, CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO.",
       "Contato com o solo": "Pneus",
       "Motor": "WEICHAI",
       "Ferramentas": "CACAMBA DE 1,7M4",
@@ -1430,7 +1482,9 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
-      "SPAR": 0
+      "SPAR": 0,
+      "VALOR FEIRA": 430000,
+      "BORSO": 10000
     }
   },
   {
@@ -1463,7 +1517,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM915F",
     "detalhes": {
       "Arranjo": "02",
-      "Configuração": "CABINE STD, TRANSMISSÃO HANGCHI 6YD13 TIPO POWERSHIFT, PREPARACAO PARA EMPLACAMENTO",
+      "Configuração": "MOTONIVELADORA, MARCA SEM MODELO 915F, AUTOPROPULSADA, COMBUSTIVEL DIESEL, COM MOTOR SDEC MODELO SC7H170G3, POTÊNCIA NOMINAL DE 123KW (164,95HP), POTENCIA NO VOLANTE DE 123,00KW, CABINE STD, RIPPER TRASEIRO COM 3 DENTES, COM LARGURA DA LÂMINA DE 3.7M, TRANSMISSÃO HANGCHI 6YD13 TIPOPOWERSHIFT, PREPARACAO PARA EMPLACAMENTO E PNEUS 14.0-24 TL12PR L2",
       "Contato com o solo": "PNEUS 14.0-24 TL12PR L2",
       "Motor": "SDEC - 165hp",
       "Ferramentas": "LÂMINA DE 3.7M, RIPPER TRASEIRO COM 3 DENTES",
@@ -1471,7 +1525,9 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "MG",
       "Industria": "GCI",
-      "SPAR": 0
+      "SPAR": 0,
+      "VALOR FEIRA": 750000,
+      "BORSO": 20000
     }
   },
   {
@@ -1483,7 +1539,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM919",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": "STANDARD CAB, ALTURA MAXIMA DE LEVANTAMENTO DA LAMINA DE 715 MM, TRANSMISSAO HANGCHI 6WG 180 AUTOMATICA, PREPARACAO PARA EMPLACAMENTO, EIXO ST23",
+      "Configuração": "MOTONIVELADORA AUTOPROPULSADA, COM ARTICULAÇÃO CENTRAL, EQUIPADA COM CABINE, COM MOTOR DE IGNIÇÃO POR COMPRESSÃO (DIESEL) PERKINS MODELO 1106D-7.01L, POTÊNCIA NO VOLANTE DE 150,9 KW (202HP), FORCA MÁXIMA NA BARRA DE TRAÇÃO DE 78 KN, EIXO ST23, TRANSMISSÃO HANGCHI 6WG 180 AUTOMÁTICA, ALTURA MÁXIMA DE LEVANTAMENTO DA LAMINA DE 715 MM, RIPPER TRASEIRO COM 3 DENTES, PREPARADA PARA EMPLACAMENTO, MARCA SEM, MODELO 919.",
       "Contato com o solo": "Pneus",
       "Motor": "PERKINS 7.0 - ",
       "Ferramentas": "RIPPER TRASEIRO COM 3 DENTES",
@@ -1491,7 +1547,9 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "MG",
       "Industria": "GCI",
-      "SPAR": 0
+      "SPAR": 0,
+      "VALOR FEIRA": 800000,
+      "BORSO": 20000
     }
   },
   {
@@ -1503,7 +1561,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+140%20LVR",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " ALAVANCAS, TOP ADJUST, TELA TOUCH SCREEN, MEDIDOR DIGITAL DE INCLINAÇÃO DA LAMINA, ACUMULADORES DE IMPACTO, LUZES EM LED",
+      "Configuração": "ALAVANCAS, TOP ADJUST, TELA TOUCH SCREEN, MEDIDOR DIGITAL DE INCLINAÇÃO DA LAMINA, ACUMULADORES DE IMPACTO, LUZES EM LED, LÂMINA DE 4,3M  , RIPPER+ESCARIFICADOR C/ 5<(>&<)>9 DENTES, PNEU DIAGONAL 17.5-25 16 LONAS",
       "Contato com o solo": "PNEU DIAGONAL 17.5-25 16 LONAS",
       "Peso Operacional": "18.400Kg",
       "Motor": "C7.1 - 183hp",
@@ -1515,7 +1573,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1459941.02,
-      "SPAR": 1401543.3791999999
+      "SPAR": 1401543.3791999999,
+      "VALOR FEIRA": 1450000,
+      "BORSO": 20000
     }
   },
   {
@@ -1527,7 +1587,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+250",
     "detalhes": {
       "Arranjo": "04",
-      "Configuração": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS), JOYSTICK AVANÇADO, MONITOR AVANÇADO, TECNOLOGIAS DE LEVANTAMENTO, PL, CAMERA DE RÉ, 2 VELOCIDADES, ASSENTO TECIDO, CONTRAPESO ADICIONAL",
+      "Configuração": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS), CAPACIDADE OPERACIONAL 1325 KG, JOYSTICK AVANÇADO, MONITOR AVANÇADO, TECNOLOGIAS DE LEVANTAMENTO, PL, CAMERA DE RÉ, 2 VELOCIDADES, PNEU 12/16,5, ASSENTO TECIDO, CONTRAPESO ADICIONAL E CACAMBA 1883MM",
       "Contato com o solo": "PNEU 12/16,5",
       "Peso Operacional": "3.551Kg",
       "Motor": "C2.8T - 74hp",
@@ -1539,7 +1599,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 395906.48,
-      "SPAR": 380070.22079999995
+      "SPAR": 380070.22079999995,
+      "VALOR FEIRA": 395000,
+      "BORSO": 10000
     }
   },
   {
@@ -1599,7 +1661,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+303.5",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " CABINE  FECHADA, ENGATE RÁPIDO MANUAL, JOYSTICK ELETROHIDRÁULICO, CABINE REBATÍVEL",
+      "Configuração": "CABINE  FECHADA, ESTEIRA DE AÇO, ENGATE RÁPIDO MANUAL, JOYSTICK ELETROHIDRÁULICO, CABINE REBATÍVEL, CAÇAMBA DE 0,12M³ E 619MM",
       "Contato com o solo": "ESTEIRA DE AÇO",
       "Peso Operacional": "4.190Kg",
       "Motor": "C1.1T - 23,6hp",
@@ -1611,7 +1673,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.095,
       "Preço CPQ 14%": 344361.45,
-      "SPAR": 330586.992
+      "SPAR": 330586.992,
+      "VALOR FEIRA": 316000,
+      "BORSO": 5000
     }
   },
   {
@@ -1671,7 +1735,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+318GC",
     "detalhes": {
       "Arranjo": "02",
-      "Configuração": " VALVULA AUXILIAR (2 SENTIDOS) + LINHA, BRACO 2,6M, LANCA 5,1M",
+      "Configuração": "TERRAPLANAGEM COM LINHA: VALVULA AUXILIAR (2 SENTIDOS) + LINHA, SAPATA GARRA TRIPLA 700MM, BRACO 2,6M, LANCA 5,1M, CAÇ GD 0,91M",
       "Contato com o solo": "SAPATA GARRA TRIPLA 700MM",
       "Ferramentas": "CAÇ GD 0,91M",
       "Consumo Garantido": "11.0 L/h",
@@ -1680,7 +1744,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 775889.96,
-      "SPAR": 744854.3616
+      "SPAR": 744854.3616,
+      "VALOR FEIRA": 750000,
+      "BORSO": 15000
     }
   },
   {
@@ -1692,7 +1758,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+320",
     "detalhes": {
       "Arranjo": "02",
-      "Configuração": "VALVULA AUXILIAR (2 SENTIDOS) + LINHA, BRACO HD 2,9M, LANCA HD 5,7M",
+      "Configuração": "VALVULA AUXILIAR (2 SENTIDOS) + LINHA, SAPATA GARRA TRIPLA 700MM, BRACO HD 2,9M, LANCA HD 5,7M, CAÇ HD 1,4M³",
       "Contato com o solo": "SAPATA GARRA TRIPLA 700MM",
       "Ferramentas": "CAÇ HD 1,4M³",
       "Consumo Garantido": "16.0 L/h",
@@ -1701,7 +1767,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
       "Preço CPQ 14%": 919211.12,
-      "SPAR": 882442.6751999999
+      "SPAR": 882442.6751999999,
+      "VALOR FEIRA": 860000,
+      "BORSO": 15000
     }
   },
   {
@@ -1713,7 +1781,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+320%20GC",
     "detalhes": {
       "Arranjo": "02",
-      "Configuração": "VALVULA AUX: VALVULA AUXILIAR E LINHA MARTELO, BRACO 2,9M, LANCA 5,7M",
+      "Configuração": "TERRAPLANAGEM VALVULA AUX: CARRO MÉDIO, VALVULA AUXILIAR E LINHA MARTELO, BRACO 2,9M, LANCA 5,7M, CAÇ GD 1,16M³",
       "Contato com o solo": "CARRO MÉDIO",
       "Ferramentas": "CAÇ GD 1,16M³",
       "Consumo Garantido": "12.0 L/h",
@@ -1722,7 +1790,9 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
       "Preço CPQ 14%": 802932.68,
-      "SPAR": 770815.3728
+      "SPAR": 770815.3728,
+      "VALOR FEIRA": 785000,
+      "BORSO": 10000
     }
   },
   {
@@ -1784,7 +1854,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 474143.3,
-      "SPAR": 455177.56799999997
+      "SPAR": 455177.56799999997,
+      "VALOR FEIRA": 440000,
+      "BORSO": 10000
     }
   },
   {
@@ -1820,7 +1892,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 510823.76,
-      "SPAR": 490390.8096
+      "SPAR": 490390.8096,
+      "VALOR FEIRA": 485000,
+      "BORSO": 10000
     }
   },
   {
@@ -1857,7 +1931,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 495901.03,
-      "SPAR": 476064.9888
+      "SPAR": 476064.9888,
+      "VALOR FEIRA": 465000,
+      "BORSO": 10000
     }
   },
   {
@@ -1907,14 +1983,16 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+920",
     "detalhes": {
       "Arranjo": "04",
-      "Configuração": "AGGREGATE:  MI , PROT A/C,  VENTILADOR REVERSIVEL, PL",
+      "Configuração": "AGGREGATE: PNEU 20.5 R25, MI , CAÇ 2,0M(PO) BORDA, PROT A/C,  VENTILADOR REVERSIVEL, PL",
       "Contato com o solo": "PNEU 20.5 R25",
       "Ferramentas": "CAÇ 2,0M(PO) BORDA",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
       "Preço CPQ 14%": 631290.83,
-      "SPAR": 606039.1967999999
+      "SPAR": 606039.1967999999,
+      "VALOR FEIRA": 615000,
+      "BORSO": 15000
     }
   },
   {
@@ -1945,14 +2023,16 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+924",
     "detalhes": {
       "Arranjo": "04",
-      "Configuração": "MERCADO DE CONSTRUÇÃO:  PINADO, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
+      "Configuração": "MERCADO DE CONSTRUÇÃO: PNEU RADIAL 20.5R-25 MAXAM, CAÇAMBA 2.1M³ (PINADO) DENTES, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU RADIAL 20.5R-25 MAXAM",
       "Ferramentas": "CAÇAMBA 2.1M³, DENTES",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
       "Preço CPQ 14%": 763131.2,
-      "SPAR": 732605.9519999999
+      "SPAR": 732605.9519999999,
+      "VALOR FEIRA": 730000,
+      "BORSO": 15000
     }
   },
   {
@@ -2048,6 +2128,32 @@ const maquinasMock = [
       "Familia": "AT",
       "Industria": "GCI",
       "SPAR": 0
+    }
+  },
+  {
+    "id": 91,
+    "codigo": "SEM636D-07PL.SM",
+    "nome": "Máquina",
+    "modelo": "636D",
+    "familia": "Outros",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+636D",
+    "detalhes": {
+      "VALOR FEIRA": 400000,
+      "BORSO": 10000,
+      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA,AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW,CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO"
+    }
+  },
+  {
+    "id": 92,
+    "codigo": "SEM656D-03.SM",
+    "nome": "Máquina",
+    "modelo": "656D",
+    "familia": "Outros",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+656D",
+    "detalhes": {
+      "VALOR FEIRA": 610000,
+      "BORSO": 20000,
+      "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSAO SEM TR200 F4/R4, CACAMBA 3M3 PS, PESO OPERACIONAL COM CACAMBA PADRAO DE 17.000KG, COMBUSTIVEL DIESEL, 2a. VALVULA E AR CONDICIONADO."
     }
   }
 ];
