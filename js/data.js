@@ -25,7 +25,17 @@ const maquinasMock = [
       "BORSO": 30000,
       "DESCONTO ": 0.08,
       "MARGEM": 0.0851,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -54,7 +64,17 @@ const maquinasMock = [
       "BORSO": 30000,
       "DESCONTO ": 0.13,
       "MARGEM": 0.08349999999999999,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -78,7 +98,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1636055.44,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -109,7 +139,17 @@ const maquinasMock = [
       "BORSO": 20000,
       "DESCONTO ": 0.06,
       "MARGEM": 0.1161,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -133,7 +173,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1687877.88,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -157,7 +207,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1771111.94,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -374,7 +434,17 @@ const maquinasMock = [
       "BORSO": 10000,
       "DESCONTO ": 0.1,
       "MARGEM": 0.0883,
-      "BUYDOWN": 0.045
+      "BUYDOWN": 0.045,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -400,7 +470,17 @@ const maquinasMock = [
       "Preço CPQ 14%": 688013.41,
       "Opcionais": "Braço 3,0m e Valvula aux com linha",
       "Preço opcionais": 4400,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -431,7 +511,17 @@ const maquinasMock = [
       "BORSO": 15000,
       "DESCONTO ": 0.1,
       "MARGEM": 0.1009,
-      "BUYDOWN": 0.045
+      "BUYDOWN": 0.045,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -462,7 +552,17 @@ const maquinasMock = [
       "BORSO": 15000,
       "DESCONTO ": 0.12,
       "MARGEM": 0.0892,
-      "BUYDOWN": 0.05
+      "BUYDOWN": 0.05,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -493,7 +593,17 @@ const maquinasMock = [
       "BORSO": 10000,
       "DESCONTO ": 0.12,
       "MARGEM": 0.0796,
-      "BUYDOWN": 0.045
+      "BUYDOWN": 0.045,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -517,7 +627,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 962613.54,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -543,7 +663,17 @@ const maquinasMock = [
       "Preço CPQ 14%": 1364832.22,
       "Opcionais": "VALVULA E LINHA PARA MARTELO",
       "Preço opcionais": 33000,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -567,7 +697,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.052,
       "Preço CPQ 14%": 1610725.98,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -593,7 +733,17 @@ const maquinasMock = [
       "Preço CPQ 14%": 1941370.92,
       "Opcionais": "Tecnologia de corte + CÂMERA 360, LINHA PARA MARTELO, BOMBA DE REABASTECIMENTO, LUZES NO CONTRAPESO, LUZES DE INSPEÇÃO, Sapata dupla",
       "Preço opcionais": 330000,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1348,7 +1498,17 @@ const maquinasMock = [
       "BORSO": 40000,
       "DESCONTO ": 0.06,
       "MARGEM": 0.0603,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1377,7 +1537,17 @@ const maquinasMock = [
       "BORSO": 60000,
       "DESCONTO ": 0.06,
       "MARGEM": 0.0584,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1401,7 +1571,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.113,
       "Preço CPQ 14%": 1448725.19,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1425,7 +1605,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1907203.65,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1449,7 +1639,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
       "Preço CPQ 14%": 2934133.03,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1473,7 +1673,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
       "Preço CPQ 14%": 3851645.03,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1494,7 +1704,17 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "WHEX",
       "Industria": "GCI",
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1654,7 +1874,17 @@ const maquinasMock = [
       "BORSO": 20000,
       "DESCONTO ": "-",
       "MARGEM": 0,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1680,7 +1910,17 @@ const maquinasMock = [
       "BORSO": 20000,
       "DESCONTO ": "-",
       "MARGEM": 0,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1709,7 +1949,17 @@ const maquinasMock = [
       "BORSO": 20000,
       "DESCONTO ": 0.06,
       "MARGEM": 0.1161,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1839,7 +2089,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 695674.74,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1863,7 +2123,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 692417.95,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1892,7 +2162,17 @@ const maquinasMock = [
       "BORSO": 15000,
       "DESCONTO ": 0.1,
       "MARGEM": 0.08310000000000001,
-      "BUYDOWN": 0.045
+      "BUYDOWN": 0.045,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1921,7 +2201,17 @@ const maquinasMock = [
       "BORSO": 15000,
       "DESCONTO ": 0.12,
       "MARGEM": 0.0855,
-      "BUYDOWN": 0.05
+      "BUYDOWN": 0.05,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1950,7 +2240,17 @@ const maquinasMock = [
       "BORSO": 10000,
       "DESCONTO ": 0.12,
       "MARGEM": 0.0852,
-      "BUYDOWN": 0.045
+      "BUYDOWN": 0.045,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1974,7 +2274,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.052,
       "Preço CPQ 14%": 1398135.58,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -1998,7 +2308,17 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 2024912.42,
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
@@ -2370,7 +2690,17 @@ const maquinasMock = [
       "Fabricação": "Importado - India",
       "Familia": "AT",
       "Industria": "GCI",
-      "BUYDOWN": 0
+      "BUYDOWN": 0,
+      "Preço Martelo H110GC": 66396.15,
+      "Preço Martelo H110GC (Ind)": 49642.37,
+      "Preço Martelo H120GC": 87895.75,
+      "Preço Martelo H120GC (Ind)": 65878.87,
+      "Preço Martelo H120GCS": 108451.39,
+      "Preço Martelo H120GCS (Ind)": 81402.49,
+      "Preço Martelo H140GC": 151638.02,
+      "Preço Martelo H140GC (Ind)": 114017.03,
+      "Preço Martelo H140GCS": 171967.09,
+      "Preço Martelo H140GCS (Ind)": 129369.55
     }
   },
   {
