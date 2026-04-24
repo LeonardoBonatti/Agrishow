@@ -237,7 +237,11 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 
         // Case-insensitive check to categorize the key
-        const isCommercial = commercialKeys.some(cKey => cKey.toLowerCase() === key.toLowerCase());
+        const isCommercial = commercialKeys.some(cKey => cKey.toLowerCase() === key.toLowerCase()) ||
+                             key.toLowerCase().includes('desconto') ||
+                             key.toLowerCase().includes('margem') ||
+                             key.toLowerCase().includes('3%') ||
+                             key.toLowerCase().includes('acima');
 
         if (isCommercial) {
           currHtml += itemHtml;

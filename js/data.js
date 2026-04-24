@@ -20,8 +20,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1238383.5,
+      "3% ACIMA": 1215400,
       "VALOR FEIRA": 1180000,
-      "BORSO": 30000
+      "BORSO": 30000,
+      "DESCONTO ": 0.08,
+      "MARGEM": 0.0851
     }
   },
   {
@@ -45,8 +48,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.11,
       "Preço CPQ 14%": 1119790.03,
+      "3% ACIMA": 1102100,
       "VALOR FEIRA": 1070000,
-      "BORSO": 30000
+      "BORSO": 30000,
+      "DESCONTO ": 0.13,
+      "MARGEM": 0.08349999999999999
     }
   },
   {
@@ -189,8 +195,11 @@ const maquinasMock = [
       "Preço CPQ 14%": 370295.28,
       "Opcionais": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS), JOYSTICK AVANÇADO, MONITOR AVANÇADO, 2 VELOCIDADES, ASSENTO TECIDO, CONTRAPESO ADICIONAL",
       "Preço opcionais": 25500,
+      "3% ACIMA": 381100,
       "VALOR FEIRA": 370000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.05,
+      "MARGEM": 0.0818
     }
   },
   {
@@ -214,8 +223,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.05,
       "Preço CPQ 14%": 438417.45,
+      "3% ACIMA": 453200,
       "VALOR FEIRA": 440000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.05,
+      "MARGEM": 0.0836
     }
   },
   {
@@ -264,8 +276,11 @@ const maquinasMock = [
       "Preço CPQ 14%": 274265.87,
       "Opcionais": "Cabine fechada com ar condicionado, esteira de aço ou borracha",
       "Preço opcionais": 25000,
+      "3% ACIMA": 272950,
       "VALOR FEIRA": 265000,
-      "BORSO": 5000
+      "BORSO": 5000,
+      "DESCONTO ": 0.12,
+      "MARGEM": 0.0555
     }
   },
   {
@@ -336,8 +351,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.1,
       "Preço CPQ 14%": 589014.02,
+      "3% ACIMA": 571650,
       "VALOR FEIRA": 555000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.1,
+      "MARGEM": 0.0883
     }
   },
   {
@@ -363,8 +381,11 @@ const maquinasMock = [
       "Preço CPQ 14%": 688013.41,
       "Opcionais": "Braço 3,0m e Valvula aux com linha",
       "Preço opcionais": 4400,
+      "3% ACIMA": 669500,
       "VALOR FEIRA": 650000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.1,
+      "MARGEM": 0.08220000000000001
     }
   },
   {
@@ -390,8 +411,11 @@ const maquinasMock = [
       "Preço CPQ 14%": 745471.73,
       "Opcionais": "Valvula 2 sentidos e linha hidraulica aux",
       "Preço opcionais": 30000,
+      "3% ACIMA": 726150,
       "VALOR FEIRA": 705000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.1,
+      "MARGEM": 0.1009
     }
   },
   {
@@ -417,8 +441,11 @@ const maquinasMock = [
       "Preço CPQ 14%": 893506.86,
       "Opcionais": "VALVULA AUXILIAR (2 SENTIDOS) + LINHA",
       "Preço opcionais": 25700,
+      "3% ACIMA": 865200,
       "VALOR FEIRA": 840000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.12,
+      "MARGEM": 0.0892
     }
   },
   {
@@ -444,8 +471,11 @@ const maquinasMock = [
       "Preço CPQ 14%": 784212.58,
       "Opcionais": "Linha hidraulica aux",
       "Preço opcionais": 18700,
+      "3% ACIMA": 787950,
       "VALOR FEIRA": 765000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.12,
+      "MARGEM": 0.0796
     }
   },
   {
@@ -575,8 +605,11 @@ const maquinasMock = [
       "Preço opcionais_3": 69600,
       "Opcionais_4": "5 FUNÇÕES,  BRAÇO EXTENSÍVEL, PARALAMA, ESTAB. DE BORRACHA",
       "Preço opcionais_4": 30400,
+      "3% ACIMA": 432600,
       "VALOR FEIRA": 420000,
-      "BORSO": 5000
+      "BORSO": 5000,
+      "DESCONTO ": 0.113,
+      "MARGEM": 0.0861
     }
   },
   {
@@ -600,8 +633,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.113,
       "Preço CPQ 14%": 504558.49,
+      "3% ACIMA": 509850,
       "VALOR FEIRA": 495000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.113,
+      "MARGEM": 0.1046
     }
   },
   {
@@ -625,8 +661,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.055,
       "Preço CPQ 14%": 511439.34,
+      "3% ACIMA": 545900,
       "VALOR FEIRA": 530000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.055,
+      "MARGEM": 0.1065
     }
   },
   {
@@ -656,8 +695,11 @@ const maquinasMock = [
       "Preço opcionais_1": 46900,
       "Opcionais_2": "Engate rápido e Pneu Michelin 20,5",
       "Preço opcionais_2": 60800,
+      "3% ACIMA": 576800,
       "VALOR FEIRA": 560000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.115,
+      "MARGEM": 0.10490000000000001
     }
   },
   {
@@ -689,8 +731,11 @@ const maquinasMock = [
       "Preço opcionais_2": 46000,
       "Opcionais_3": "ENGATE: ENGATE RÁPIDO, PNEU DIAGONAL 17.5-25 GOODYEAR",
       "Preço opcionais_3": 49700,
+      "3% ACIMA": 736450,
       "VALOR FEIRA": 715000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.12300000000000001,
+      "MARGEM": 0.1025
     }
   },
   {
@@ -714,8 +759,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.152,
       "Preço CPQ 14%": 920568.2,
+      "3% ACIMA": 925970,
       "VALOR FEIRA": 899000,
-      "BORSO": 20000
+      "BORSO": 20000,
+      "DESCONTO ": 0.152,
+      "MARGEM": 0.1197
     }
   },
   {
@@ -739,8 +787,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.086,
       "Preço CPQ 14%": 1117274.89,
+      "3% ACIMA": 1163900,
       "VALOR FEIRA": 1130000,
-      "BORSO": 30000
+      "BORSO": 30000,
+      "DESCONTO ": 0.13,
+      "MARGEM": 0.15539999999999998
     }
   },
   {
@@ -764,8 +815,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.086,
       "Preço CPQ 14%": 1104638.82,
+      "3% ACIMA": 1071200,
       "VALOR FEIRA": 1040000,
-      "BORSO": 20000
+      "BORSO": 20000,
+      "DESCONTO ": 0.13,
+      "MARGEM": 0.1032
     }
   },
   {
@@ -812,8 +866,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1095369.5,
+      "3% ACIMA": 1102100,
       "VALOR FEIRA": 1070000,
-      "BORSO": 20000
+      "BORSO": 20000,
+      "DESCONTO ": 0.06,
+      "MARGEM": 0.0952
     }
   },
   {
@@ -1085,8 +1142,11 @@ const maquinasMock = [
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
       "Preço CPQ 14%": 622646.33,
+      "3% ACIMA": 602550,
       "VALOR FEIRA": 585000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.115,
+      "MARGEM": 0.102
     }
   },
   {
@@ -1133,8 +1193,11 @@ const maquinasMock = [
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
       "Preço CPQ 14%": 659264.12,
+      "3% ACIMA": 638600,
       "VALOR FEIRA": 620000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.115,
+      "MARGEM": 0.1045
     }
   },
   {
@@ -1203,8 +1266,11 @@ const maquinasMock = [
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.103,
       "Preço CPQ 14%": 797908.14,
+      "3% ACIMA": 757050,
       "VALOR FEIRA": 735000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.14300000000000002,
+      "MARGEM": 0.076
     }
   },
   {
@@ -1228,8 +1294,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1128748.12,
+      "3% ACIMA": 1117550,
       "VALOR FEIRA": 1085000,
-      "BORSO": 40000
+      "BORSO": 40000,
+      "DESCONTO ": 0.06,
+      "MARGEM": 0.0603
     }
   },
   {
@@ -1253,8 +1322,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1460542.41,
+      "3% ACIMA": 1452300,
       "VALOR FEIRA": 1410000,
-      "BORSO": 60000
+      "BORSO": 60000,
+      "DESCONTO ": 0.06,
+      "MARGEM": 0.0584
     }
   },
   {
@@ -1388,8 +1460,11 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
+      "3% ACIMA": 278100,
       "VALOR FEIRA": 270000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1411,8 +1486,11 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
+      "3% ACIMA": 267800,
       "VALOR FEIRA": 260000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1455,8 +1533,11 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
+      "3% ACIMA": 442900,
       "VALOR FEIRA": 430000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1497,8 +1578,11 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "MG",
       "Industria": "GCI",
+      "3% ACIMA": 772500,
       "VALOR FEIRA": 750000,
-      "BORSO": 20000
+      "BORSO": 20000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1519,8 +1603,11 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "MG",
       "Industria": "GCI",
+      "3% ACIMA": 824000,
       "VALOR FEIRA": 800000,
-      "BORSO": 20000
+      "BORSO": 20000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1544,8 +1631,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1459941.02,
+      "3% ACIMA": 1493500,
       "VALOR FEIRA": 1450000,
-      "BORSO": 20000
+      "BORSO": 20000,
+      "DESCONTO ": 0.06,
+      "MARGEM": 0.1161
     }
   },
   {
@@ -1569,8 +1659,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 395906.48,
+      "3% ACIMA": 406850,
       "VALOR FEIRA": 395000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.05,
+      "MARGEM": 0.0846
     }
   },
   {
@@ -1640,8 +1733,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 344361.45,
+      "3% ACIMA": 325480,
       "VALOR FEIRA": 316000,
-      "BORSO": 5000
+      "BORSO": 5000,
+      "DESCONTO ": 0.12,
+      "MARGEM": 0.0592
     }
   },
   {
@@ -1711,8 +1807,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 775889.96,
+      "3% ACIMA": 772500,
       "VALOR FEIRA": 750000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.1,
+      "MARGEM": 0.08310000000000001
     }
   },
   {
@@ -1736,8 +1835,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 919211.12,
+      "3% ACIMA": 885800,
       "VALOR FEIRA": 860000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.12,
+      "MARGEM": 0.0855
     }
   },
   {
@@ -1761,8 +1863,11 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 802932.68,
+      "3% ACIMA": 808550,
       "VALOR FEIRA": 785000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.12,
+      "MARGEM": 0.0852
     }
   },
   {
@@ -1832,8 +1937,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 474143.3,
+      "3% ACIMA": 453200,
       "VALOR FEIRA": 440000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.113,
+      "MARGEM": 0.0873
     }
   },
   {
@@ -1878,8 +1986,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 510823.76,
+      "3% ACIMA": 499550,
       "VALOR FEIRA": 485000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.113,
+      "MARGEM": 0.1103
     }
   },
   {
@@ -1924,8 +2035,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 495901.03,
+      "3% ACIMA": 478950,
       "VALOR FEIRA": 465000,
-      "BORSO": 10000
+      "BORSO": 10000,
+      "DESCONTO ": 0.113,
+      "MARGEM": 0.097
     }
   },
   {
@@ -1992,8 +2106,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
       "Preço CPQ 14%": 631290.83,
+      "3% ACIMA": 633450,
       "VALOR FEIRA": 615000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.115,
+      "MARGEM": 0.1121
     }
   },
   {
@@ -2038,8 +2155,11 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
       "Preço CPQ 14%": 763131.2,
+      "3% ACIMA": 751900,
       "VALOR FEIRA": 730000,
-      "BORSO": 15000
+      "BORSO": 15000,
+      "DESCONTO ": 0.12300000000000001,
+      "MARGEM": 0.102
     }
   },
   {
@@ -2156,9 +2276,12 @@ const maquinasMock = [
     "familia": "Outros",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+636D",
     "detalhes": {
+      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA,AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW,CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO",
+      "3% ACIMA": 412000,
       "VALOR FEIRA": 400000,
       "BORSO": 10000,
-      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA,AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW,CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO"
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -2169,9 +2292,12 @@ const maquinasMock = [
     "familia": "Outros",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+656D",
     "detalhes": {
+      "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSAO SEM TR200 F4/R4, CACAMBA 3M3 PS, PESO OPERACIONAL COM CACAMBA PADRAO DE 17.000KG, COMBUSTIVEL DIESEL, 2a. VALVULA E AR CONDICIONADO.",
+      "3% ACIMA": 628300,
       "VALOR FEIRA": 610000,
       "BORSO": 20000,
-      "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSAO SEM TR200 F4/R4, CACAMBA 3M3 PS, PESO OPERACIONAL COM CACAMBA PADRAO DE 17.000KG, COMBUSTIVEL DIESEL, 2a. VALVULA E AR CONDICIONADO."
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   }
 ];
