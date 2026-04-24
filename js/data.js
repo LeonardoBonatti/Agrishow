@@ -199,7 +199,8 @@ const maquinasMock = [
       "VALOR FEIRA": 370000,
       "BORSO": 10000,
       "DESCONTO ": 0.05,
-      "MARGEM": 0.0818
+      "MARGEM": 0.0818,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -227,7 +228,8 @@ const maquinasMock = [
       "VALOR FEIRA": 440000,
       "BORSO": 10000,
       "DESCONTO ": 0.05,
-      "MARGEM": 0.0836
+      "MARGEM": 0.0836,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -280,7 +282,8 @@ const maquinasMock = [
       "VALOR FEIRA": 265000,
       "BORSO": 5000,
       "DESCONTO ": 0.12,
-      "MARGEM": 0.0555
+      "MARGEM": 0.0555,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -355,7 +358,8 @@ const maquinasMock = [
       "VALOR FEIRA": 555000,
       "BORSO": 10000,
       "DESCONTO ": 0.1,
-      "MARGEM": 0.0883
+      "MARGEM": 0.0883,
+      "BUYDOWN": 0.045
     }
   },
   {
@@ -367,7 +371,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+316%20GC",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "TERRAPLANAGEM ALCANCE SD: CABINE ROPS, BRACO 3.0M, LANCA 4,65M, CAÇ SD 0,65M³ (5 DENTES)",
+      "Configuração": "CABINE ROPS, BRACO 2.5M HD, LANCA 4,65M",
       "Contato com o solo": "SAPATA TRIPLA 600MM",
       "Peso Operacional": "14.600Kg",
       "Motor": "C3.6 - 104hp",
@@ -380,12 +384,7 @@ const maquinasMock = [
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 688013.41,
       "Opcionais": "Braço 3,0m e Valvula aux com linha",
-      "Preço opcionais": 4400,
-      "3% ACIMA": 669500,
-      "VALOR FEIRA": 650000,
-      "BORSO": 10000,
-      "DESCONTO ": 0.1,
-      "MARGEM": 0.08220000000000001
+      "Preço opcionais": 4400
     }
   },
   {
@@ -415,7 +414,8 @@ const maquinasMock = [
       "VALOR FEIRA": 705000,
       "BORSO": 15000,
       "DESCONTO ": 0.1,
-      "MARGEM": 0.1009
+      "MARGEM": 0.1009,
+      "BUYDOWN": 0.045
     }
   },
   {
@@ -445,7 +445,8 @@ const maquinasMock = [
       "VALOR FEIRA": 840000,
       "BORSO": 15000,
       "DESCONTO ": 0.12,
-      "MARGEM": 0.0892
+      "MARGEM": 0.0892,
+      "BUYDOWN": 0.05
     }
   },
   {
@@ -475,7 +476,8 @@ const maquinasMock = [
       "VALOR FEIRA": 765000,
       "BORSO": 10000,
       "DESCONTO ": 0.12,
-      "MARGEM": 0.0796
+      "MARGEM": 0.0796,
+      "BUYDOWN": 0.045
     }
   },
   {
@@ -1663,7 +1665,8 @@ const maquinasMock = [
       "VALOR FEIRA": 395000,
       "BORSO": 10000,
       "DESCONTO ": 0.05,
-      "MARGEM": 0.0846
+      "MARGEM": 0.0846,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -1737,7 +1740,8 @@ const maquinasMock = [
       "VALOR FEIRA": 316000,
       "BORSO": 5000,
       "DESCONTO ": 0.12,
-      "MARGEM": 0.0592
+      "MARGEM": 0.0592,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -1811,7 +1815,8 @@ const maquinasMock = [
       "VALOR FEIRA": 750000,
       "BORSO": 15000,
       "DESCONTO ": 0.1,
-      "MARGEM": 0.08310000000000001
+      "MARGEM": 0.08310000000000001,
+      "BUYDOWN": 0.045
     }
   },
   {
@@ -1839,7 +1844,8 @@ const maquinasMock = [
       "VALOR FEIRA": 860000,
       "BORSO": 15000,
       "DESCONTO ": 0.12,
-      "MARGEM": 0.0855
+      "MARGEM": 0.0855,
+      "BUYDOWN": 0.05
     }
   },
   {
@@ -1867,7 +1873,8 @@ const maquinasMock = [
       "VALOR FEIRA": 785000,
       "BORSO": 10000,
       "DESCONTO ": 0.12,
-      "MARGEM": 0.0852
+      "MARGEM": 0.0852,
+      "BUYDOWN": 0.045
     }
   },
   {
@@ -2270,6 +2277,23 @@ const maquinasMock = [
   },
   {
     "id": 91,
+    "codigo": "316GC-01DLN3.AA",
+    "nome": "Máquina",
+    "modelo": "316GC",
+    "familia": "Outros",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+316GC",
+    "detalhes": {
+      "Configuração": "TERRAPLANAGEM ALCANCE SD: CABINE ROPS, BRACO 3.0M, LANCA 4,65M, CAÇ SD 0,65M³ (5 DENTES)",
+      "3% ACIMA": 669500,
+      "VALOR FEIRA": 650000,
+      "BORSO": 10000,
+      "DESCONTO ": 0.1,
+      "MARGEM": 0.08220000000000001,
+      "BUYDOWN": 0.045
+    }
+  },
+  {
+    "id": 92,
     "codigo": "SEM636D-07PL.SM",
     "nome": "Máquina",
     "modelo": "636D",
@@ -2285,7 +2309,7 @@ const maquinasMock = [
     }
   },
   {
-    "id": 92,
+    "id": 93,
     "codigo": "SEM656D-03.SM",
     "nome": "Máquina",
     "modelo": "656D",
