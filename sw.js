@@ -1,10 +1,10 @@
-const CACHE_NAME = 'sotreq-agrishow-v24';
+const CACHE_NAME = 'sotreq-agrishow-v25';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html',
-  './css/style.css',
-  './js/app.js',
-  './js/data.js',
+  './index.html?v=25',
+  './css/style.css?v=25',
+  './js/app.js?v=25',
+  './js/data.js?v=25',
   './img/icon-192.png',
   './img/icon-512.png',
   './img/app_icon.png'
@@ -34,7 +34,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((response) => {
+    caches.match(event.request, {ignoreSearch: true}).then((response) => {
       if (response) {
         return response;
       }
@@ -49,7 +49,7 @@ self.addEventListener('fetch', (event) => {
       }).catch(() => {
         // Se a rede falhar e for navegação de tela, força carregar o index offline
         if (event.request.mode === 'navigate' || event.request.headers.get('accept').includes('text/html')) {
-          return caches.match('./index.html');
+          return caches.match('./index.html', {ignoreSearch: true});
         }
       });
     })
