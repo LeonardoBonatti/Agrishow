@@ -380,4 +380,30 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   });
 
+  // --- FAKE LOGIN SYSTEM ---
+  const loginOverlay = document.getElementById('loginOverlay');
+  const fakeLoginForm = document.getElementById('fakeLoginForm');
+  
+  if (loginOverlay && fakeLoginForm) {
+    if (localStorage.getItem('sotreq_auth_token')) {
+      loginOverlay.classList.add('hidden');
+      document.body.style.overflow = '';
+    } else {
+      document.body.style.overflow = 'hidden';
+    }
+
+    fakeLoginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = document.querySelector('.login-btn');
+      btn.textContent = 'Autenticando...';
+      btn.style.opacity = '0.8';
+
+      setTimeout(() => {
+          localStorage.setItem('sotreq_auth_token', 'true');
+          loginOverlay.classList.add('hidden');
+          document.body.style.overflow = '';
+      }, 800);
+    });
+  }
+
 });
