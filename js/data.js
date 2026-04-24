@@ -265,7 +265,7 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 522045.68,
-      "BUYDOWN": 0
+      "BUYDOWN": 0.025
     }
   },
   {
