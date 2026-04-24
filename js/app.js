@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (key.toLowerCase().includes('desconto') || key.toLowerCase().includes('margem') || key.toLowerCase().includes('buydown')) {
           const num = parseFloat(value);
           if (!isNaN(num) && num < 10 && num > -10) { 
-            valStr = num === 0 ? '0%' : (num * 100).toFixed(1) + '%';
+            valStr = num === 0 ? '0%' : (num * 100).toFixed(2).replace('.', ',') + '%';
           } else if (!isNaN(num)) {
             valStr = num + '%';
           }
