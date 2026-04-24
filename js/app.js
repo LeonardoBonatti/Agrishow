@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="modal-tabs">
           <button class="modal-tab-btn active" data-target="tab-tech">Ficha Técnica</button>
           <button class="modal-tab-btn" data-target="tab-com">Valores & Condições</button>
-          <button class="modal-tab-btn" data-target="tab-cdc">CDC</button>
+          <button class="modal-tab-btn" data-target="tab-cdc">Banco CAT</button>
         </div>
 
         <div id="tab-tech" class="modal-tab-content active">
