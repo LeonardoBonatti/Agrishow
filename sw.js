@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sotreq-agrishow-v23';
+const CACHE_NAME = 'sotreq-agrishow-v24';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

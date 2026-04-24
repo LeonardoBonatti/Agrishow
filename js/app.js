@@ -242,7 +242,10 @@ document.addEventListener('DOMContentLoaded', () => {
                              key.toLowerCase().includes('margem') ||
                              key.toLowerCase().includes('3%') ||
                              key.toLowerCase().includes('acima') ||
-                             key.toLowerCase().includes('buydown');
+                             key.toLowerCase().includes('buydown') ||
+                             key.toLowerCase().includes('preço') ||
+                             key.toLowerCase().includes('preco') ||
+                             key.toLowerCase().includes('martelo');
 
         if (isCommercial) {
           currHtml += itemHtml;
