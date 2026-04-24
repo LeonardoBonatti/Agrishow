@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (value === undefined || value === '-' || value === null || String(value).trim() === '') return;
         
         let valStr = String(value);
-        if (key.toLowerCase().includes('preço') || key.toLowerCase().includes('spar') || key.toLowerCase().includes('preco') || key.toUpperCase() === 'VALOR FEIRA' || key.toUpperCase() === 'BORSO') {
+        if (key.toLowerCase().includes('preço') || key.toLowerCase().includes('spar') || key.toLowerCase().includes('preco') || key.toUpperCase() === 'VALOR FEIRA' || key.toUpperCase() === 'BORSO' || key.toLowerCase().includes('acima')) {
           const num = parseFloat(value);
           if (!isNaN(num)) {
             valStr = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(num);
