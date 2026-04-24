@@ -20,7 +20,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1238383.5,
-      "SPAR": 1188848.16,
       "VALOR FEIRA": 1180000,
       "BORSO": 30000
     }
@@ -46,7 +45,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.11,
       "Preço CPQ 14%": 1119790.03,
-      "SPAR": 1074998.4287999999,
       "VALOR FEIRA": 1070000,
       "BORSO": 30000
     }
@@ -70,9 +68,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MG",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.119,
-      "Preço CPQ 14%": 1636055.44,
-      "SPAR": 1570613.2223999999
+      "Desconto Vigente PSC": 0.06,
+      "Preço CPQ 14%": 1636055.44
     }
   },
   {
@@ -96,7 +93,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1422911.88,
-      "SPAR": 1365995.4048,
       "Opcionais": "Luz em Led, Tela Touch e Top Adjust",
       "Preço opcionais": 37000
     }
@@ -121,8 +117,7 @@ const maquinasMock = [
       "Familia": "MG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1687877.88,
-      "SPAR": 1620362.7647999998
+      "Preço CPQ 14%": 1687877.88
     }
   },
   {
@@ -145,8 +140,7 @@ const maquinasMock = [
       "Familia": "MG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1771111.94,
-      "SPAR": 1700267.4623999998
+      "Preço CPQ 14%": 1771111.94
     }
   },
   {
@@ -168,9 +162,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SSL",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 336883.64,
-      "SPAR": 323408.2944
+      "Desconto Vigente PSC": 0.05,
+      "Preço CPQ 14%": 336883.64
     }
   },
   {
@@ -194,7 +187,6 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 370295.28,
-      "SPAR": 355483.46880000003,
       "Opcionais": "ALTO FLUXO E ALTA PRESSÃO (HIGH FLOW XPS), JOYSTICK AVANÇADO, MONITOR AVANÇADO, 2 VELOCIDADES, ASSENTO TECIDO, CONTRAPESO ADICIONAL",
       "Preço opcionais": 25500,
       "VALOR FEIRA": 370000,
@@ -220,9 +212,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SSL",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.07,
+      "Desconto Vigente PSC": 0.05,
       "Preço CPQ 14%": 438417.45,
-      "SPAR": 420880.752,
       "VALOR FEIRA": 440000,
       "BORSO": 10000
     }
@@ -247,8 +238,7 @@ const maquinasMock = [
       "Familia": "SSL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 522045.68,
-      "SPAR": 501163.8528
+      "Preço CPQ 14%": 522045.68
     }
   },
   {
@@ -272,10 +262,9 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.14,
       "Preço CPQ 14%": 274265.87,
-      "SPAR": 263295.2352,
       "Opcionais": "Cabine fechada com ar condicionado, esteira de aço ou borracha",
       "Preço opcionais": 25000,
-      "VALOR FEIRA": 250000,
+      "VALOR FEIRA": 265000,
       "BORSO": 5000
     }
   },
@@ -300,7 +289,6 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.095,
       "Preço CPQ 14%": 338458.57,
-      "SPAR": 324920.2272,
       "Opcionais": "Esteira de aço",
       "Preço opcionais": 5900
     }
@@ -319,11 +307,12 @@ const maquinasMock = [
       "Peso Operacional": "7.500Kg",
       "Motor": "C2.4T - 49hp",
       "Ferramentas": "CAÇAMBA DE 0,33M³ E LARGURA DE 854MM",
+      "Capacidade": "Profundidade max escav. 4.067mm",
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "MHEX",
       "Industria": "BCP",
-      "SPAR": 0
+      "Desconto Vigente PSC": 0.095
     }
   },
   {
@@ -345,9 +334,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXSM",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.07,
+      "Desconto Vigente PSC": 0.1,
       "Preço CPQ 14%": 589014.02,
-      "SPAR": 565453.4592,
       "VALOR FEIRA": 555000,
       "BORSO": 10000
     }
@@ -373,7 +361,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 688013.41,
-      "SPAR": 660492.8736,
       "Opcionais": "Braço 3,0m e Valvula aux com linha",
       "Preço opcionais": 4400,
       "VALOR FEIRA": 650000,
@@ -401,7 +388,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 745471.73,
-      "SPAR": 715652.8607999999,
       "Opcionais": "Valvula 2 sentidos e linha hidraulica aux",
       "Preço opcionais": 30000,
       "VALOR FEIRA": 705000,
@@ -429,7 +415,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
       "Preço CPQ 14%": 893506.86,
-      "SPAR": 857766.5856,
       "Opcionais": "VALVULA AUXILIAR (2 SENTIDOS) + LINHA",
       "Preço opcionais": 25700,
       "VALOR FEIRA": 840000,
@@ -457,7 +442,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
       "Preço CPQ 14%": 784212.58,
-      "SPAR": 752844.0767999999,
       "Opcionais": "Linha hidraulica aux",
       "Preço opcionais": 18700,
       "VALOR FEIRA": 765000,
@@ -483,9 +467,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXMD",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.09,
-      "Preço CPQ 14%": 962613.54,
-      "SPAR": 924108.9984
+      "Desconto Vigente PSC": 0.12,
+      "Preço CPQ 14%": 962613.54
     }
   },
   {
@@ -509,7 +492,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 1364832.22,
-      "SPAR": 1310238.9312,
       "Opcionais": "VALVULA E LINHA PARA MARTELO",
       "Preço opcionais": 33000
     }
@@ -533,9 +515,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXLG",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 1610725.98,
-      "SPAR": 1546296.9408
+      "Desconto Vigente PSC": 0.052,
+      "Preço CPQ 14%": 1610725.98
     }
   },
   {
@@ -559,7 +540,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 1941370.92,
-      "SPAR": 1863716.0831999998,
       "Opcionais": "Tecnologia de corte + CÂMERA 360, LINHA PARA MARTELO, BOMBA DE REABASTECIMENTO, LUZES NO CONTRAPESO, LUZES DE INSPEÇÃO, Sapata dupla",
       "Preço opcionais": 330000
     }
@@ -585,7 +565,6 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 465433.42,
-      "SPAR": 446816.0832,
       "Opcionais": " 1 FUNÇÃO Extra, KEYPAD, PARALAMA,ESTAB. DE BORRACHA",
       "Preço opcionais": 8700,
       "Opcionais_1": " 1 FUNÇÃO Extra + Linha, KEYPAD, PARALAMA,ESTAB. DE BORRACHA",
@@ -619,9 +598,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "BHL",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.092,
+      "Desconto Vigente PSC": 0.113,
       "Preço CPQ 14%": 504558.49,
-      "SPAR": 484376.1504,
       "VALOR FEIRA": 495000,
       "BORSO": 10000
     }
@@ -640,13 +618,13 @@ const maquinasMock = [
       "Peso Operacional": "8.568Kg",
       "Motor": "C4.4 - 100hp",
       "Ferramentas": "CAÇ 1,6M³ (PO) BORDA",
+      "Capacidade": "Peso Max.  2.736Kg",
       "Consumo Garantido": "-",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SWL",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.084,
+      "Desconto Vigente PSC": 0.055,
       "Preço CPQ 14%": 511439.34,
-      "SPAR": 490981.7664,
       "VALOR FEIRA": 530000,
       "BORSO": 15000
     }
@@ -665,13 +643,13 @@ const maquinasMock = [
       "Peso Operacional": "9.132Kg",
       "Motor": "C4.4 - 100hp",
       "Ferramentas": "CAÇ 1,9M³ (PO) BORDA",
+      "Capacidade": "Peso Max.  2.703Kg",
       "Consumo Garantido": "-",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
       "Preço CPQ 14%": 584303.08,
-      "SPAR": 560930.9567999999,
       "Opcionais": "Engate Rápido IT",
       "Preço opcionais": 72800,
       "Opcionais_1": "Pneu Michelin 20,5",
@@ -696,13 +674,13 @@ const maquinasMock = [
       "Peso Operacional": "11.775Kg",
       "Motor": "C7.1 - 137hp",
       "Ferramentas": "CAÇAMBA 2.1M³, DENTES",
+      "Capacidade": "Peso Max. 3.749Kg",
       "Consumo Garantido": "10.0 L/h",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
       "Preço CPQ 14%": 746508.86,
-      "SPAR": 716648.5055999999,
       "Opcionais": "PNEU RADIAL 20.5R-25 MAXAM",
       "Preço opcionais": 16600,
       "Opcionais_1": "PNEU RADIAL 20.5R25 MICHELIN",
@@ -729,13 +707,13 @@ const maquinasMock = [
       "Peso Operacional": "13.246Kg",
       "Motor": "C7.1 - 160hp",
       "Ferramentas": "CAÇAMBA 2.5M³, DENTES",
+      "Capacidade": "Peso Max. 4.182Kg",
       "Consumo Garantido": "11.0 L/h",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SWL",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.121,
+      "Desconto Vigente PSC": 0.152,
       "Preço CPQ 14%": 920568.2,
-      "SPAR": 883745.472,
       "VALOR FEIRA": 899000,
       "BORSO": 20000
     }
@@ -754,13 +732,13 @@ const maquinasMock = [
       "Peso Operacional": "15.399Kg",
       "Motor": "C7.1 - 188hp",
       "Ferramentas": "CAÇAMBA BAGAÇO 6.0M³ (PO) BORDAS",
+      "Capacidade": "Peso Max. 5.061Kg",
       "Consumo Garantido": "14.0 L/h",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.086,
       "Preço CPQ 14%": 1117274.89,
-      "SPAR": 1072583.8943999999,
       "VALOR FEIRA": 1130000,
       "BORSO": 30000
     }
@@ -779,13 +757,13 @@ const maquinasMock = [
       "Peso Operacional": "15.399Kg",
       "Motor": "C7.1 - 188hp",
       "Ferramentas": "CAÇAMBA 2.7M³, DENTES",
+      "Capacidade": "Peso Max. 5.061Kg",
       "Consumo Garantido": "14.0 L/h",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.086,
       "Preço CPQ 14%": 1104638.82,
-      "SPAR": 1060453.2672000001,
       "VALOR FEIRA": 1040000,
       "BORSO": 20000
     }
@@ -804,13 +782,13 @@ const maquinasMock = [
       "Peso Operacional": "18.076Kg",
       "Motor": "C7.1 - 253hp",
       "Ferramentas": "CAÇAMBA ROCHA 2.90m³",
+      "Capacidade": "Peso Max. 5.468Kg",
       "Consumo Garantido": "15.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1468290.84,
-      "SPAR": 1409559.2064
+      "Preço CPQ 14%": 1468290.84
     }
   },
   {
@@ -827,14 +805,14 @@ const maquinasMock = [
       "Peso Operacional": "18.676Kg",
       "Motor": "C7.1 - 202hp",
       "Ferramentas": "CAÇAMBA GP 3.40m³",
+      "Capacidade": "Peso Max. 5.468Kg",
       "Consumo Garantido": "14.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1095369.5,
-      "SPAR": 1051554.72,
-      "VALOR FEIRA": 1040000,
+      "VALOR FEIRA": 1070000,
       "BORSO": 20000
     }
   },
@@ -852,13 +830,13 @@ const maquinasMock = [
       "Peso Operacional": "19.043Kg",
       "Motor": "C7.1 - 273hp",
       "Ferramentas": "CAÇ ROCHA 3,1M³ (PO)",
+      "Capacidade": "Peso Max. 9.904Kg",
       "Consumo Garantido": "16.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1524307.28,
-      "SPAR": 1463334.9888
+      "Preço CPQ 14%": 1524307.28
     }
   },
   {
@@ -875,13 +853,13 @@ const maquinasMock = [
       "Peso Operacional": "23.196Kg",
       "Motor": "C9.3B - 325hp",
       "Ferramentas": "CAÇAMBA ROCHA 3.40m³",
+      "Capacidade": "Peso Max. 7.424Kg",
       "Consumo Garantido": "19.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1793392.4,
-      "SPAR": 1721656.704
+      "Preço CPQ 14%": 1793392.4
     }
   },
   {
@@ -898,13 +876,13 @@ const maquinasMock = [
       "Peso Operacional": "24.890Kg",
       "Motor": "C9.3B - 344hp",
       "Ferramentas": "CAÇAMBA GP 5.30m³",
+      "Capacidade": "Peso Max. 8.148Kg",
       "Consumo Garantido": "20.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1910860.47,
-      "SPAR": 1834426.0511999999
+      "Preço CPQ 14%": 1910860.47
     }
   },
   {
@@ -921,13 +899,13 @@ const maquinasMock = [
       "Peso Operacional": "30.344Kg",
       "Motor": "C13 - 417hp",
       "Ferramentas": "CAÇAMBA IRON 3,80m³",
+      "Capacidade": "Peso Max. 9.853",
       "Consumo Garantido": "27.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 2755824.79,
-      "SPAR": 2645591.7983999997
+      "Preço CPQ 14%": 2755824.79
     }
   },
   {
@@ -950,8 +928,7 @@ const maquinasMock = [
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.088,
-      "Preço CPQ 14%": 698765.22,
-      "SPAR": 670814.6111999999
+      "Preço CPQ 14%": 698765.22
     }
   },
   {
@@ -973,8 +950,7 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "ACOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.068,
-      "SPAR": 0
+      "Desconto Vigente PSC": 0.068
     }
   },
   {
@@ -996,8 +972,7 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "ACOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.068,
-      "SPAR": 0
+      "Desconto Vigente PSC": 0.068
     }
   },
   {
@@ -1020,8 +995,7 @@ const maquinasMock = [
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.088,
-      "Preço CPQ 14%": 645092.97,
-      "SPAR": 619289.2511999999
+      "Preço CPQ 14%": 645092.97
     }
   },
   {
@@ -1042,8 +1016,7 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "ACOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.068,
-      "SPAR": 0
+      "Desconto Vigente PSC": 0.068
     }
   },
   {
@@ -1059,13 +1032,13 @@ const maquinasMock = [
       "Contato com o solo": "Patas",
       "Peso Operacional": "11.383Kg",
       "Motor": "C4.4 - 130hp",
+      "Capacidade": "Largura de Compactação:  2.134mm",
       "Consumo Garantido": "14.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 747147.08,
-      "SPAR": 717261.1967999999
+      "Preço CPQ 14%": 747147.08
     }
   },
   {
@@ -1082,13 +1055,13 @@ const maquinasMock = [
       "Peso Operacional": "11.387Kg",
       "Motor": "C4.4 - 112hp",
       "Ferramentas": "2134mm x 1549mm",
+      "Capacidade": "Largura de Compactação:  2.134mm",
       "Consumo Garantido": "-",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 654496.76,
-      "SPAR": 628316.8896
+      "Preço CPQ 14%": 654496.76
     }
   },
   {
@@ -1105,14 +1078,14 @@ const maquinasMock = [
       "Peso Operacional": "10.492Kg",
       "Motor": "C4.4 - 112hp",
       "Ferramentas": "2134mm x 1535mm",
+      "Capacidade": "Largura de Compactação:  2.134mm",
       "Consumo Garantido": "-",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
       "Preço CPQ 14%": 622646.33,
-      "SPAR": 597740.4768,
-      "VALOR FEIRA": 565000,
+      "VALOR FEIRA": 585000,
       "BORSO": 10000
     }
   },
@@ -1130,13 +1103,13 @@ const maquinasMock = [
       "Peso Operacional": "10.806Kg",
       "Motor": "C4.4 - 130hp",
       "Ferramentas": "2134mm x 1535mm",
+      "Capacidade": "Largura de Compactação:  2.134mm",
       "Consumo Garantido": "13.5 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "SCOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 748578.73,
-      "SPAR": 718635.5808
+      "Preço CPQ 14%": 748578.73
     }
   },
   {
@@ -1153,14 +1126,14 @@ const maquinasMock = [
       "Peso Operacional": "11.235Kg",
       "Motor": "C4.4 - 112hp",
       "Ferramentas": "2134mm x 1535mm",
+      "Capacidade": "Largura de Compactação:  2.134mm",
       "Consumo Garantido": "-",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "SCOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
       "Preço CPQ 14%": 659264.12,
-      "SPAR": 632893.5552,
-      "VALOR FEIRA": 598000,
+      "VALOR FEIRA": 620000,
       "BORSO": 10000
     }
   },
@@ -1178,12 +1151,12 @@ const maquinasMock = [
       "Peso Operacional": "20.220Kg",
       "Motor": "C7.1 - 173hp",
       "Ferramentas": "2134mm x 1535mm",
+      "Capacidade": "Largura de Compactação:  2.134mm",
       "Consumo Garantido": "18.5 L/h",
       "Fabricação": "Importado",
       "Familia": "SCOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.075,
-      "SPAR": 0
+      "Desconto Vigente PSC": 0.075
     }
   },
   {
@@ -1200,13 +1173,13 @@ const maquinasMock = [
       "Peso Operacional": "7.210Kg",
       "Motor": "C4.4 - 131hp",
       "Ferramentas": "1676mm x 1221mm",
+      "Capacidade": "Largura de Compactação:  1.676mm",
       "Consumo Garantido": "10.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "SCOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 485106.28,
-      "SPAR": 465702.02880000003
+      "Preço CPQ 14%": 485106.28
     }
   },
   {
@@ -1223,14 +1196,14 @@ const maquinasMock = [
       "Peso Operacional": "27.000Kg",
       "Motor": "C4.4 - 100hp",
       "Ferramentas": "2090mm",
-      "Consumo Garantido": "6.0 L/h",
+      "Capacidade": "Largura de Compactação:  2.090mm",
+      "Consumo Garantido": "11.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "PCOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.103,
       "Preço CPQ 14%": 797908.14,
-      "SPAR": 765991.8144,
-      "VALOR FEIRA": 710000,
+      "VALOR FEIRA": 735000,
       "BORSO": 15000
     }
   },
@@ -1248,13 +1221,13 @@ const maquinasMock = [
       "Peso Operacional": "13.500Kg",
       "Motor": "C7.1 - 130hp",
       "Ferramentas": "LÂMINA VPAT DE 3.3m³, RIPPER COM 3 DENTES",
+      "Capacidade": "3,8 m³",
       "Consumo Garantido": "14.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1128748.12,
-      "SPAR": 1083598.1952,
       "VALOR FEIRA": 1085000,
       "BORSO": 40000
     }
@@ -1273,13 +1246,13 @@ const maquinasMock = [
       "Peso Operacional": "19.070Kg",
       "Motor": "C7.1 - 170hp",
       "Ferramentas": "LÂMINA VPAT DE 3.3m³, RIPPER COM 3 DENTES",
+      "Capacidade": "4m³",
       "Consumo Garantido": "16.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1460542.41,
-      "SPAR": 1402120.7136,
       "VALOR FEIRA": 1410000,
       "BORSO": 60000
     }
@@ -1298,13 +1271,13 @@ const maquinasMock = [
       "Peso Operacional": "19.070Kg",
       "Motor": "C7.1 - 170hp",
       "Ferramentas": "LÂMINA VPAT 4.0M³, RIPPER COM 3 DENTES",
+      "Capacidade": "4m³",
       "Consumo Garantido": "16.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.113,
-      "Preço CPQ 14%": 1448725.19,
-      "SPAR": 1390776.1823999998
+      "Preço CPQ 14%": 1448725.19
     }
   },
   {
@@ -1321,13 +1294,13 @@ const maquinasMock = [
       "Peso Operacional": "22.130Kg",
       "Motor": "C9.3B - 215hp",
       "Ferramentas": "LÂMINA SU, RIPPER 3 DENTES",
+      "Capacidade": "7m³",
       "Consumo Garantido": "25.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1907203.65,
-      "SPAR": 1830915.504
+      "Preço CPQ 14%": 1907203.65
     }
   },
   {
@@ -1344,13 +1317,13 @@ const maquinasMock = [
       "Peso Operacional": "29.776Kg",
       "Motor": "C9.3B - 265hp",
       "Ferramentas": "LÂMINA SU, RIPPER 3 DENTES",
+      "Capacidade": "9,7 m³",
       "Consumo Garantido": "32.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
-      "Preço CPQ 14%": 2934133.03,
-      "SPAR": 2816767.7087999997
+      "Preço CPQ 14%": 2934133.03
     }
   },
   {
@@ -1367,13 +1340,13 @@ const maquinasMock = [
       "Peso Operacional": "39.000Kg",
       "Motor": "C15 - 363hp",
       "Ferramentas": "LÂMINA SU, RIPPER UNIDENTE COM SACO PINO",
+      "Capacidade": "10,3m³",
       "Consumo Garantido": "-",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
-      "Preço CPQ 14%": 3851645.03,
-      "SPAR": 3697579.2287999997
+      "Preço CPQ 14%": 3851645.03
     }
   },
   {
@@ -1393,8 +1366,7 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado",
       "Familia": "WHEX",
-      "Industria": "GCI",
-      "SPAR": 0
+      "Industria": "GCI"
     }
   },
   {
@@ -1408,6 +1380,7 @@ const maquinasMock = [
       "Arranjo": "03",
       "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG, POTENCIA NOMINAL BRUTA DE 62,5KW (84HP), POTENCIA NO VOLANTE DE 62,5KW, MOTOR DE 4,7 LITROS DE CILINDRADAS, 2.200 RPM, MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COMBUSTÍVEL DIESEL, TRANSMISSÃO ZL15, EIXO ZL16, COM DISPOSITIVO DE ENGATE RÁPIDO COM PINO HORIZONTAL, CAÇAMBA, GARFO PALLET, 3a VALVULA E AR CONDICIONADO MODELO SEM618D, MARCA SEM.",
       "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
       "Motor": "YTO 4.7 - 84hp",
       "Ferramentas": "CACAMBA DE 1.0M3 e  GARFO PALLET",
       "Capacidade": "1.800Kg",
@@ -1415,7 +1388,6 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
-      "SPAR": 0,
       "VALOR FEIRA": 270000,
       "BORSO": 10000
     }
@@ -1431,6 +1403,7 @@ const maquinasMock = [
       "Arranjo": "05",
       "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, DE CARREGAMENTO FRONTAL, MARCA SEM, MODELO SEM618D, AUTOPROPULSADA, COMBUSTIVEL DIESEL, COM MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG , POTENCIA NOMINAL BRUTA DE 62,5KW/84HP, MOTOR DE 4,7 LITROS DE CILINDRADAS, 2.200 RPM,TRANSMISSÃO ZL15, EIXO ZL16.",
       "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
       "Motor": "YTO 4.7 - 84hp",
       "Ferramentas": "CACAMBA DE 1.0M3",
       "Capacidade": "1.800Kg",
@@ -1438,7 +1411,6 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
-      "SPAR": 0,
       "VALOR FEIRA": 260000,
       "BORSO": 10000
     }
@@ -1454,14 +1426,14 @@ const maquinasMock = [
       "Arranjo": "07",
       "Configuração": "PINADA, TRANSMISSAO SEM E AR CONDICIONADO",
       "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
       "Motor": "WEICHAI",
       "Ferramentas": "CACAMBA DE 1,7M3",
       "Capacidade": "3.000Kg",
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "CWL",
-      "Industria": "BCP",
-      "SPAR": 0
+      "Industria": "BCP"
     }
   },
   {
@@ -1475,6 +1447,7 @@ const maquinasMock = [
       "Arranjo": "08",
       "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM ENGATE RAPIDO-QC, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW, POTENCIA NO VOLANTE DE 92KW, CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO.",
       "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
       "Motor": "WEICHAI",
       "Ferramentas": "CACAMBA DE 1,7M4",
       "Capacidade": "3.000Kg",
@@ -1482,7 +1455,6 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "CWL",
       "Industria": "BCP",
-      "SPAR": 0,
       "VALOR FEIRA": 430000,
       "BORSO": 10000
     }
@@ -1504,8 +1476,7 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "CWL",
-      "Industria": "BCP",
-      "SPAR": 0
+      "Industria": "BCP"
     }
   },
   {
@@ -1519,13 +1490,13 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "MOTONIVELADORA, MARCA SEM MODELO 915F, AUTOPROPULSADA, COMBUSTIVEL DIESEL, COM MOTOR SDEC MODELO SC7H170G3, POTÊNCIA NOMINAL DE 123KW (164,95HP), POTENCIA NO VOLANTE DE 123,00KW, CABINE STD, RIPPER TRASEIRO COM 3 DENTES, COM LARGURA DA LÂMINA DE 3.7M, TRANSMISSÃO HANGCHI 6YD13 TIPOPOWERSHIFT, PREPARACAO PARA EMPLACAMENTO E PNEUS 14.0-24 TL12PR L2",
       "Contato com o solo": "PNEUS 14.0-24 TL12PR L2",
+      "Peso Operacional": "13.700Kg",
       "Motor": "SDEC - 165hp",
       "Ferramentas": "LÂMINA DE 3.7M, RIPPER TRASEIRO COM 3 DENTES",
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "MG",
       "Industria": "GCI",
-      "SPAR": 0,
       "VALOR FEIRA": 750000,
       "BORSO": 20000
     }
@@ -1541,13 +1512,13 @@ const maquinasMock = [
       "Arranjo": "01",
       "Configuração": "MOTONIVELADORA AUTOPROPULSADA, COM ARTICULAÇÃO CENTRAL, EQUIPADA COM CABINE, COM MOTOR DE IGNIÇÃO POR COMPRESSÃO (DIESEL) PERKINS MODELO 1106D-7.01L, POTÊNCIA NO VOLANTE DE 150,9 KW (202HP), FORCA MÁXIMA NA BARRA DE TRAÇÃO DE 78 KN, EIXO ST23, TRANSMISSÃO HANGCHI 6WG 180 AUTOMÁTICA, ALTURA MÁXIMA DE LEVANTAMENTO DA LAMINA DE 715 MM, RIPPER TRASEIRO COM 3 DENTES, PREPARADA PARA EMPLACAMENTO, MARCA SEM, MODELO 919.",
       "Contato com o solo": "Pneus",
+      "Peso Operacional": "17.370Kg",
       "Motor": "PERKINS 7.0 - ",
       "Ferramentas": "RIPPER TRASEIRO COM 3 DENTES",
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "MG",
       "Industria": "GCI",
-      "SPAR": 0,
       "VALOR FEIRA": 800000,
       "BORSO": 20000
     }
@@ -1573,7 +1544,6 @@ const maquinasMock = [
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1459941.02,
-      "SPAR": 1401543.3791999999,
       "VALOR FEIRA": 1450000,
       "BORSO": 20000
     }
@@ -1599,7 +1569,6 @@ const maquinasMock = [
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 395906.48,
-      "SPAR": 380070.22079999995,
       "VALOR FEIRA": 395000,
       "BORSO": 10000
     }
@@ -1624,8 +1593,7 @@ const maquinasMock = [
       "Familia": "MHEX",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.14,
-      "Preço CPQ 14%": 299684.41,
-      "SPAR": 287697.03359999997
+      "Preço CPQ 14%": 299684.41
     }
   },
   {
@@ -1648,8 +1616,7 @@ const maquinasMock = [
       "Familia": "MHEX",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.14,
-      "Preço CPQ 14%": 293868.96,
-      "SPAR": 282114.20160000003
+      "Preço CPQ 14%": 293868.96
     }
   },
   {
@@ -1671,9 +1638,8 @@ const maquinasMock = [
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "MHEX",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.095,
+      "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 344361.45,
-      "SPAR": 330586.992,
       "VALOR FEIRA": 316000,
       "BORSO": 5000
     }
@@ -1698,8 +1664,7 @@ const maquinasMock = [
       "Familia": "HEXSM",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 695674.74,
-      "SPAR": 667847.7504
+      "Preço CPQ 14%": 695674.74
     }
   },
   {
@@ -1722,8 +1687,7 @@ const maquinasMock = [
       "Familia": "HEXSM",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 692417.95,
-      "SPAR": 664721.232
+      "Preço CPQ 14%": 692417.95
     }
   },
   {
@@ -1737,14 +1701,16 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "TERRAPLANAGEM COM LINHA: VALVULA AUXILIAR (2 SENTIDOS) + LINHA, SAPATA GARRA TRIPLA 700MM, BRACO 2,6M, LANCA 5,1M, CAÇ GD 0,91M",
       "Contato com o solo": "SAPATA GARRA TRIPLA 700MM",
+      "Peso Operacional": "17.500Kg",
+      "Motor": "C3.6 113hp",
       "Ferramentas": "CAÇ GD 0,91M",
+      "Capacidade": "Profundida max escav. 6.110mm",
       "Consumo Garantido": "11.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXSM",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 775889.96,
-      "SPAR": 744854.3616,
       "VALOR FEIRA": 750000,
       "BORSO": 15000
     }
@@ -1760,14 +1726,16 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "VALVULA AUXILIAR (2 SENTIDOS) + LINHA, SAPATA GARRA TRIPLA 700MM, BRACO HD 2,9M, LANCA HD 5,7M, CAÇ HD 1,4M³",
       "Contato com o solo": "SAPATA GARRA TRIPLA 700MM",
+      "Peso Operacional": "21.700Kg",
+      "Motor": "C7.1 157hp",
       "Ferramentas": "CAÇ HD 1,4M³",
+      "Capacidade": "Profundidade max escav. 6.720mm ",
       "Consumo Garantido": "16.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXMD",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.09,
+      "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 919211.12,
-      "SPAR": 882442.6751999999,
       "VALOR FEIRA": 860000,
       "BORSO": 15000
     }
@@ -1783,14 +1751,16 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "TERRAPLANAGEM VALVULA AUX: CARRO MÉDIO, VALVULA AUXILIAR E LINHA MARTELO, BRACO 2,9M, LANCA 5,7M, CAÇ GD 1,16M³",
       "Contato com o solo": "CARRO MÉDIO",
+      "Peso Operacional": "20.000Kg",
+      "Motor": "C4.4 143hp",
       "Ferramentas": "CAÇ GD 1,16M³",
+      "Capacidade": "Profundidade max escav. 6.630mm ",
       "Consumo Garantido": "12.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXMD",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.09,
+      "Desconto Vigente PSC": 0.12,
       "Preço CPQ 14%": 802932.68,
-      "SPAR": 770815.3728,
       "VALOR FEIRA": 785000,
       "BORSO": 10000
     }
@@ -1806,14 +1776,16 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "LINHA MARTELO:  VALVULA E LINHA PARA MARTELO, PROTECAO COMPLETA ROLETES,BRACO 2,55M, LANCA 6,18M",
       "Contato com o solo": "CARRO INFERIOR ESTREITO, SAPATA GARRA DUPLA 600MM",
+      "Peso Operacional": "37.500Kg",
+      "Motor": "C7.1 300hp",
       "Ferramentas": "CAÇ 2,4M³ COM PROTETOR LATERAL",
+      "Capacidade": "Profundidade max escav. 7.510mm ",
       "Consumo Garantido": "26.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXLG",
       "Industria": "GCI",
-      "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 1398135.58,
-      "SPAR": 1342210.1568
+      "Desconto Vigente PSC": 0.052,
+      "Preço CPQ 14%": 1398135.58
     }
   },
   {
@@ -1827,14 +1799,16 @@ const maquinasMock = [
       "Arranjo": "05",
       "Configuração": "COM TECNOLOGIA: CABINE DELUXE, MONITOR 10\", LANÇA MASSA 6.55M, BRAÇO DE 2.5M, PROTEÇÃO COMPLETA DOS ROLETES, VENTILADOR REVERSÍVEL, CÂMERA 360, VÁLVULA E LINHA PARA MARTELO, BOMBA DE REABASTECIMENTO, LUZES NO CONTRAPESO, LUZES DE INSPEÇÃO",
       "Contato com o solo": "SAPATA DG DUPLA 600MM",
+      "Peso Operacional": "47.600Kg",
+      "Motor": "C9.3 B 414hp",
       "Ferramentas": "CAÇAMBA SD 3.21M3",
+      "Capacidade": "Profundidade max escav. 8.240mm",
       "Consumo Garantido": "34.0 L/h",
       "Fabricação": "Nacional - Piracicaba",
       "Familia": "HEXLG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 2024912.42,
-      "SPAR": 1943915.9231999998
+      "Preço CPQ 14%": 2024912.42
     }
   },
   {
@@ -1848,13 +1822,16 @@ const maquinasMock = [
       "Arranjo": "01",
       "Configuração": "CABINE, 4X4, 5 FUNÇÕES, DENTES, KEYPAD, PARALAMA,ESTAB. DE BORRACHA,PL",
       "Contato com o solo": "Pneus Goodyear",
-      "Consumo Garantido": "-",
+      "Peso Operacional": "11.000Kg",
+      "Motor": "C4.4 Turbo 96hp",
+      "Ferramentas": "CACAMBA PADRAO INSTALADA",
+      "Capacidade": "Profundidade max escav. 4.277mm",
+      "Consumo Garantido": "10.0 L/h",
       "Fabricação": "Nacional - Campo Largo",
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 474143.3,
-      "SPAR": 455177.56799999997,
       "VALOR FEIRA": 440000,
       "BORSO": 10000
     }
@@ -1870,11 +1847,15 @@ const maquinasMock = [
       "Arranjo": "03",
       "Configuração": "CABINE, 4X4, 5 FUNÇÕES + LINHAS, DENTES, KEYPAD, PARALAMA,ESTAB. DE BORRACHA,PL",
       "Contato com o solo": "Pneus Goodyear",
+      "Peso Operacional": "11.000Kg",
+      "Motor": "C4.4 Turbo 96hp",
+      "Ferramentas": "CACAMBA PADRAO INSTALADA",
+      "Capacidade": "Profundidade max escav. 4.277mm",
+      "Consumo Garantido": "10.0 L/h",
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
-      "Preço CPQ 14%": 489418.72,
-      "SPAR": 455159.4096
+      "Preço CPQ 14%": 489418.72
     }
   },
   {
@@ -1888,11 +1869,15 @@ const maquinasMock = [
       "Arranjo": "03",
       "Configuração": "CABINE, 4X4, 5 FUNÇÕES + LINHAS, POWERSHIFT, DENTES, KEYPAD, PARALAMA,ESTAB. DE BORRACHA,PL, PROT. DO TANQUE, ENGATE RAPIDO.",
       "Contato com o solo": "Pneus Goodyear",
+      "Peso Operacional": "11.000Kg",
+      "Motor": "C4.4 Turbo 96hp",
+      "Ferramentas": "CACAMBA PADRAO INSTALADA",
+      "Capacidade": "Profundidade max escav. 4.277mm",
+      "Consumo Garantido": "10.0 L/h",
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 510823.76,
-      "SPAR": 490390.8096,
       "VALOR FEIRA": 485000,
       "BORSO": 10000
     }
@@ -1908,12 +1893,15 @@ const maquinasMock = [
       "Arranjo": "04",
       "Configuração": "MARTELO B8S, CABINE, 4X4, 5 FUNÇÕES + LINHAS, DENTES, KEYPAD, ENGATE RAPIDO MANUAL, PARALAMA,ESTAB. DE BORRACHA,PL",
       "Contato com o solo": "Pneus Goodyear",
+      "Peso Operacional": "11.000Kg",
+      "Motor": "C4.4 Turbo 96hp",
       "Ferramentas": "CACAMBA PADRAO INSTALADA",
+      "Capacidade": "Profundidade max escav. 4.277mm",
+      "Consumo Garantido": "10.0 L/h",
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
-      "Preço CPQ 14%": 535092.1,
-      "SPAR": 513688.41599999997
+      "Preço CPQ 14%": 535092.1
     }
   },
   {
@@ -1927,11 +1915,15 @@ const maquinasMock = [
       "Arranjo": "06",
       "Configuração": "CABINE, 4X4, 5 FUNÇÕES, BORDA, BRAÇO EXTENSÍVEL, PARALAMA, ESTAB. DE BORRACHA, PL",
       "Contato com o solo": "Pneus Goodyear",
+      "Peso Operacional": "11.000Kg",
+      "Motor": "C4.4 Turbo 96hp",
+      "Ferramentas": "CACAMBA PADRAO INSTALADA",
+      "Capacidade": "Profundidade max escav. 4.277mm",
+      "Consumo Garantido": "10.0 L/h",
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
       "Preço CPQ 14%": 495901.03,
-      "SPAR": 476064.9888,
       "VALOR FEIRA": 465000,
       "BORSO": 10000
     }
@@ -1947,12 +1939,15 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "ENGATE Rápido, REC. ELETR, PL, PROT DO A/C, VENTILADOR REVERSIVEL",
       "Contato com o solo": "PNEU 17.5-25 L2 GD",
+      "Peso Operacional": "9.132kg",
+      "Motor": "Cat C4.4  102 hp",
       "Ferramentas": "CAÇ 1,9M³ (IT) BORDA",
+      "Capacidade": "2.736Kg",
+      "Consumo Garantido": "9,5l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
-      "Preço CPQ 14%": 592918.92,
-      "SPAR": 569202.1632000001
+      "Preço CPQ 14%": 592918.92
     }
   },
   {
@@ -1966,12 +1961,15 @@ const maquinasMock = [
       "Arranjo": "03",
       "Configuração": "ENGATE Rápido, REC. ELETR, PL, PROT DO A/C, VENTILADOR REVERSIVEL.",
       "Contato com o solo": "PNEU 17.5-25 L2 GD",
+      "Peso Operacional": "9.132kg",
+      "Motor": "Cat C4.4  102 hp",
       "Ferramentas": "CAÇ 1,9M³ (IT) BORDA+ BIG BAG",
+      "Capacidade": "2.736Kg",
+      "Consumo Garantido": "9,5l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
-      "Preço CPQ 14%": 609089.7,
-      "SPAR": 584726.112
+      "Preço CPQ 14%": 609089.7
     }
   },
   {
@@ -1985,12 +1983,15 @@ const maquinasMock = [
       "Arranjo": "04",
       "Configuração": "AGGREGATE: PNEU 20.5 R25, MI , CAÇ 2,0M(PO) BORDA, PROT A/C,  VENTILADOR REVERSIVEL, PL",
       "Contato com o solo": "PNEU 20.5 R25",
+      "Peso Operacional": "9.132kg",
+      "Motor": "Cat C4.4  102 hp",
       "Ferramentas": "CAÇ 2,0M(PO) BORDA",
+      "Capacidade": "2.736Kg",
+      "Consumo Garantido": "9,5l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
       "Preço CPQ 14%": 631290.83,
-      "SPAR": 606039.1967999999,
       "VALOR FEIRA": 615000,
       "BORSO": 15000
     }
@@ -2006,12 +2007,15 @@ const maquinasMock = [
       "Arranjo": "05",
       "Configuração": "MA ,ENGATE RAPIDO IT, PROT A/C, VENTILADOR REVERSIVEL, PL",
       "Contato com o solo": "PNEU 20.5 R25",
+      "Peso Operacional": "9.132kg",
+      "Motor": "Cat C4.4  102 hp",
       "Ferramentas": "CAÇ 1,9,0M BORDA",
+      "Capacidade": "2.736Kg",
+      "Consumo Garantido": "9,5l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
-      "Preço CPQ 14%": 645125.06,
-      "SPAR": 619320.0576000001
+      "Preço CPQ 14%": 645125.06
     }
   },
   {
@@ -2025,12 +2029,15 @@ const maquinasMock = [
       "Arranjo": "04",
       "Configuração": "MERCADO DE CONSTRUÇÃO: PNEU RADIAL 20.5R-25 MAXAM, CAÇAMBA 2.1M³ (PINADO) DENTES, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU RADIAL 20.5R-25 MAXAM",
+      "Peso Operacional": "11.775 kg",
+      "Motor": "Cat® C7.1*  141 hp",
       "Ferramentas": "CAÇAMBA 2.1M³, DENTES",
+      "Capacidade": "3.749,5 Kg",
+      "Consumo Garantido": "15l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
       "Preço CPQ 14%": 763131.2,
-      "SPAR": 732605.9519999999,
       "VALOR FEIRA": 730000,
       "BORSO": 15000
     }
@@ -2046,12 +2053,15 @@ const maquinasMock = [
       "Arranjo": "05",
       "Configuração": "CONSTRUÇÃO RADIAL: PINADO, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU RADIAL 20.5R25 MICHELIN",
+      "Peso Operacional": "11.775 kg",
+      "Motor": "Cat® C7.1*  141 hp",
       "Ferramentas": "CAÇAMBA 2.1M³, DENTES",
+      "Capacidade": "3.749,5 Kg",
+      "Consumo Garantido": "15l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
-      "Preço CPQ 14%": 804897.48,
-      "SPAR": 772701.5808
+      "Preço CPQ 14%": 804897.48
     }
   },
   {
@@ -2065,12 +2075,15 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": "MERCADO AGRO:  Engate rápido FUSION, CONTRAPESO ADICIONAL, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, CÂMERA DE RÉ, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU DIAGONAL 20.5-25 TITAN",
+      "Peso Operacional": "11.775 kg",
+      "Motor": "Cat® C7.1*  141 hp",
       "Ferramentas": "CAÇAMBA 2.1M³, DENTES",
+      "Capacidade": "3.749,5 Kg",
+      "Consumo Garantido": "15l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
-      "Preço CPQ 14%": 792790.97,
-      "SPAR": 761079.3311999999
+      "Preço CPQ 14%": 792790.97
     }
   },
   {
@@ -2084,12 +2097,15 @@ const maquinasMock = [
       "Arranjo": "01",
       "Configuração": "CONTRUÇÃO 17.5 ENGATE: ENGATE RÁPIDO, VENTILADOR REVERSÍVEL, MONITOR 8\", ASSENTO COM SENSOR DE PRESENÇA, PRODUCT LINK DUAL (HÍBRIDO)",
       "Contato com o solo": "PNEU DIAGONAL 17.5-25 GOODYEAR",
+      "Peso Operacional": "11.775 kg",
+      "Motor": "Cat® C7.1*  141 hp",
       "Ferramentas": "CAÇAMBA 2.1M³, DENTES",
+      "Capacidade": "3.749,5 Kg",
+      "Consumo Garantido": "15l/h",
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
-      "Preço CPQ 14%": 796290,
-      "SPAR": 764438.4
+      "Preço CPQ 14%": 796290
     }
   },
   {
@@ -2103,12 +2119,15 @@ const maquinasMock = [
       "Arranjo": "02",
       "Configuração": " MINERIO DE FERRO, 2V COM RIDE CONTROL , EIXO ARREFECIDO, LUZES LED PREMIUM, VENTILADOR PADRÃO,  CONTRAPESO PADRÃO",
       "Contato com o solo": "PNEUS L5",
+      "Peso Operacional": "23.790Kg",
+      "Motor": "Cat® C9.3B 325 hp",
       "Ferramentas": "CAÇAMBA FERRO 2.80m³",
+      "Capacidade": "8.230.4Kg",
+      "Consumo Garantido": "20l/h",
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1816161.76,
-      "SPAR": 1743515.2896
+      "Preço CPQ 14%": 1816161.76
     }
   },
   {
@@ -2126,8 +2145,7 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado - India",
       "Familia": "AT",
-      "Industria": "GCI",
-      "SPAR": 0
+      "Industria": "GCI"
     }
   },
   {
