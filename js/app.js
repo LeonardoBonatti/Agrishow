@@ -293,9 +293,56 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <div id="tab-cdc" class="modal-tab-content">
-          <div style="text-align: center; padding: 1rem 0;">
-            <img src="./img/cdc.png" alt="Informações CDC" style="max-width: 100%; border-radius: 8px;">
-            <p style="margin-top: 10px; color: var(--gray-medium); font-size: 0.9rem;">Consulte as condições financeiras acima.</p>
+          <div style="padding: 1rem 0;">
+            <style>
+            .fin-t-wrap { margin-bottom: 20px; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; font-family: 'Inter', sans-serif; }
+            .fin-t-head { background: #FFCC09; color: #111; text-align: center; font-weight: 700; padding: 10px; font-size: 0.95rem; margin: 0; }
+            .fin-tbl { width: 100%; border-collapse: collapse; text-align: center; }
+            .fin-tbl th { background: #f8fafc; color: #475569; font-size: 0.75rem; padding: 8px; font-weight: 600; border-bottom: 2px solid #e2e8f0; }
+            .fin-tbl td { padding: 8px; font-size: 0.85rem; color: #334155; border-bottom: 1px solid #f1f5f9; }
+            .fin-tbl tr:last-child td { border-bottom: none; }
+            .fin-term { font-weight: 700; color: #0f172a; background: #f8fafc; border-right: 1px solid #e2e8f0; vertical-align: middle; }
+            </style>
+
+            <div class="fin-t-wrap">
+              <h4 class="fin-t-head">CDC - BD 2,5%</h4>
+              <table class="fin-tbl">
+                <thead><tr><th>Meses</th><th>Entrada</th><th>Taxa (a.m.)</th></tr></thead>
+                <tbody>
+                  <tr><td rowspan="3" class="fin-term">12</td><td>10%</td><td>0,859%</td></tr><tr><td>20%</td><td>0,803%</td></tr><tr><td>30%</td><td>0,730%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">24</td><td>10%</td><td>1,083%</td></tr><tr><td>20%</td><td>1,053%</td></tr><tr><td>30%</td><td>1,014%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">36</td><td>10%</td><td>1,156%</td></tr><tr><td>20%</td><td>1,135%</td></tr><tr><td>30%</td><td>1,108%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">48</td><td>10%</td><td>1,195%</td></tr><tr><td>20%</td><td>1,179%</td></tr><tr><td>30%</td><td>1,158%</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="fin-t-wrap">
+              <h4 class="fin-t-head">CDC - BD 5,0%</h4>
+              <table class="fin-tbl">
+                <thead><tr><th>Meses</th><th>Entrada</th><th>Taxa (a.m.)</th></tr></thead>
+                <tbody>
+                  <tr><td rowspan="3" class="fin-term">12</td><td>10%</td><td>0,405%</td></tr><tr><td>20%</td><td>0,290%</td></tr><tr><td>30%</td><td>0,142%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">24</td><td>10%</td><td>0,840%</td></tr><tr><td>20%</td><td>0,778%</td></tr><tr><td>30%</td><td>0,699%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">36</td><td>10%</td><td>0,987%</td></tr><tr><td>20%</td><td>0,944%</td></tr><tr><td>30%</td><td>0,889%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">48</td><td>10%</td><td>1,064%</td></tr><tr><td>20%</td><td>1,031%</td></tr><tr><td>30%</td><td>0,988%</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="fin-t-wrap">
+              <h4 class="fin-t-head">FINAME - BD 2,5%</h4>
+              <table class="fin-tbl">
+                <thead><tr><th>Meses</th><th>Entrada</th><th>Taxa (a.m.)</th></tr></thead>
+                <tbody>
+                  <tr><td rowspan="3" class="fin-term">12</td><td>10%</td><td>0,869%</td></tr><tr><td>20%</td><td>0,863%</td></tr><tr><td>30%</td><td>0,861%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">24</td><td>10%</td><td>0,987%</td></tr><tr><td>20%</td><td>0,883%</td></tr><tr><td>30%</td><td>0,863%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">36</td><td>10%</td><td>0,977%</td></tr><tr><td>20%</td><td>0,949%</td></tr><tr><td>30%</td><td>0,923%</td></tr>
+                  <tr><td rowspan="3" class="fin-term">48</td><td>10%</td><td>0,999%</td></tr><tr><td>20%</td><td>0,984%</td></tr><tr><td>30%</td><td>0,963%</td></tr>
+                </tbody>
+              </table>
+            </div>
+
           </div>
         </div>
         
