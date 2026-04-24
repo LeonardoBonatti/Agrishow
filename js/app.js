@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
 
-        if (key.toLowerCase().includes('desconto') || key.toLowerCase().includes('margem')) {
+        if (key.toLowerCase().includes('desconto') || key.toLowerCase().includes('margem') || key.toLowerCase().includes('buydown')) {
           const num = parseFloat(value);
           if (!isNaN(num) && num < 10 && num > -10) { 
             valStr = (num * 100).toFixed(1) + '%';
@@ -241,7 +241,8 @@ document.addEventListener('DOMContentLoaded', () => {
                              key.toLowerCase().includes('desconto') ||
                              key.toLowerCase().includes('margem') ||
                              key.toLowerCase().includes('3%') ||
-                             key.toLowerCase().includes('acima');
+                             key.toLowerCase().includes('acima') ||
+                             key.toLowerCase().includes('buydown');
 
         if (isCommercial) {
           currHtml += itemHtml;

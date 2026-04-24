@@ -87,7 +87,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+140%20LVR",
     "detalhes": {
       "Arranjo": "01",
-      "Configuração": " ALAVANCAS, MEDIDOR DIGITAL DE INCLINAÇÃO DA LAMINA, ACUMULADORES DE IMPACTO, LUZES HALÓGENAS",
+      "Configuração": "ALAVANCAS, TOP ADJUST, TELA TOUCH SCREEN, MEDIDOR DIGITAL DE INCLINAÇÃO DA LAMINA, ACUMULADORES DE IMPACTO, LUZES EM LED, LÂMINA DE 4,3M  , RIPPER+ESCARIFICADOR C/ 5<(>&<)>9 DENTES, PNEU DIAGONAL 17.5-25 16 LONAS",
       "Contato com o solo": "PNEU DIAGONAL 17.5-25 16 LONAS",
       "Peso Operacional": "18.400Kg",
       "Motor": "C7.1 - 183hp",
@@ -100,7 +100,12 @@ const maquinasMock = [
       "Desconto Vigente PSC": 0.06,
       "Preço CPQ 14%": 1422911.88,
       "Opcionais": "Luz em Led, Tela Touch e Top Adjust",
-      "Preço opcionais": 37000
+      "Preço opcionais": 37000,
+      "3% ACIMA": 1493500,
+      "VALOR FEIRA": 1450000,
+      "BORSO": 20000,
+      "DESCONTO ": 0.06,
+      "MARGEM": 0.1161
     }
   },
   {
@@ -611,7 +616,8 @@ const maquinasMock = [
       "VALOR FEIRA": 420000,
       "BORSO": 5000,
       "DESCONTO ": 0.113,
-      "MARGEM": 0.0861
+      "MARGEM": 0.0861,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -639,7 +645,8 @@ const maquinasMock = [
       "VALOR FEIRA": 495000,
       "BORSO": 10000,
       "DESCONTO ": 0.113,
-      "MARGEM": 0.1046
+      "MARGEM": 0.1046,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -666,8 +673,9 @@ const maquinasMock = [
       "3% ACIMA": 545900,
       "VALOR FEIRA": 530000,
       "BORSO": 15000,
-      "DESCONTO ": 0.055,
-      "MARGEM": 0.1065
+      "DESCONTO ": 0.06,
+      "MARGEM": 0.1065,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -701,7 +709,8 @@ const maquinasMock = [
       "VALOR FEIRA": 560000,
       "BORSO": 10000,
       "DESCONTO ": 0.115,
-      "MARGEM": 0.10490000000000001
+      "MARGEM": 0.10490000000000001,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -737,7 +746,8 @@ const maquinasMock = [
       "VALOR FEIRA": 715000,
       "BORSO": 15000,
       "DESCONTO ": 0.12300000000000001,
-      "MARGEM": 0.1025
+      "MARGEM": 0.1025,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -765,7 +775,8 @@ const maquinasMock = [
       "VALOR FEIRA": 899000,
       "BORSO": 20000,
       "DESCONTO ": 0.152,
-      "MARGEM": 0.1197
+      "MARGEM": 0.1197,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -793,7 +804,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1130000,
       "BORSO": 30000,
       "DESCONTO ": 0.13,
-      "MARGEM": 0.15539999999999998
+      "MARGEM": 0.15539999999999998,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -821,7 +833,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1040000,
       "BORSO": 20000,
       "DESCONTO ": 0.13,
-      "MARGEM": 0.1032
+      "MARGEM": 0.1032,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -1504,7 +1517,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM636D",
     "detalhes": {
       "Arranjo": "07",
-      "Configuração": "PINADA, TRANSMISSAO SEM E AR CONDICIONADO",
+      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA,AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW,CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO",
       "Contato com o solo": "Pneus",
       "Peso Operacional": "5.780Kg",
       "Motor": "WEICHAI",
@@ -1513,7 +1526,12 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "CWL",
-      "Industria": "BCP"
+      "Industria": "BCP",
+      "3% ACIMA": 412000,
+      "VALOR FEIRA": 400000,
+      "BORSO": 10000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1551,7 +1569,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM656D",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "TRANSMISSAO SEM TR200 F4/R4, 2a. VALVULA E AR CONDICIONADO.",
+      "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSAO SEM TR200 F4/R4, CACAMBA 3M3 PS, PESO OPERACIONAL COM CACAMBA PADRAO DE 17.000KG, COMBUSTIVEL DIESEL, 2a. VALVULA E AR CONDICIONADO.",
       "Contato com o solo": "Pneus",
       "Peso Operacional": "17.000Kg",
       "Motor": "WEICHAI 9.7 - 206hp",
@@ -1559,7 +1577,12 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado - China",
       "Familia": "CWL",
-      "Industria": "BCP"
+      "Industria": "BCP",
+      "3% ACIMA": 628300,
+      "VALOR FEIRA": 610000,
+      "BORSO": 20000,
+      "DESCONTO ": "-",
+      "MARGEM": 0
     }
   },
   {
@@ -1948,7 +1971,8 @@ const maquinasMock = [
       "VALOR FEIRA": 440000,
       "BORSO": 10000,
       "DESCONTO ": 0.113,
-      "MARGEM": 0.0873
+      "MARGEM": 0.0873,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -1960,7 +1984,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+416",
     "detalhes": {
       "Arranjo": "03",
-      "Configuração": "CABINE, 4X4, 5 FUNÇÕES + LINHAS, DENTES, KEYPAD, PARALAMA,ESTAB. DE BORRACHA,PL",
+      "Configuração": "CABINE, 4X4, 5 FUNÇÕES + LINHAS, POWERSHIFT, DENTES, KEYPAD, PARALAMA,ESTAB. DE BORRACHA,PL, PROT. DO TANQUE, ENGATE RAPIDO.",
       "Contato com o solo": "Pneus Goodyear",
       "Peso Operacional": "11.000Kg",
       "Motor": "C4.4 Turbo 96hp",
@@ -1970,7 +1994,13 @@ const maquinasMock = [
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
-      "Preço CPQ 14%": 489418.72
+      "Preço CPQ 14%": 489418.72,
+      "3% ACIMA": 499550,
+      "VALOR FEIRA": 485000,
+      "BORSO": 10000,
+      "DESCONTO ": 0.113,
+      "MARGEM": 0.1103,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -1997,7 +2027,8 @@ const maquinasMock = [
       "VALOR FEIRA": 485000,
       "BORSO": 10000,
       "DESCONTO ": 0.113,
-      "MARGEM": 0.1103
+      "MARGEM": 0.1103,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -2046,7 +2077,8 @@ const maquinasMock = [
       "VALOR FEIRA": 465000,
       "BORSO": 10000,
       "DESCONTO ": 0.113,
-      "MARGEM": 0.097
+      "MARGEM": 0.097,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -2117,7 +2149,8 @@ const maquinasMock = [
       "VALOR FEIRA": 615000,
       "BORSO": 15000,
       "DESCONTO ": 0.115,
-      "MARGEM": 0.1121
+      "MARGEM": 0.1121,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -2166,7 +2199,8 @@ const maquinasMock = [
       "VALOR FEIRA": 730000,
       "BORSO": 15000,
       "DESCONTO ": 0.12300000000000001,
-      "MARGEM": 0.102
+      "MARGEM": 0.102,
+      "BUYDOWN": 0.025
     }
   },
   {
@@ -2278,9 +2312,9 @@ const maquinasMock = [
   {
     "id": 91,
     "codigo": "316GC-01DLN3.AA",
-    "nome": "Máquina",
+    "nome": "Escavadeira",
     "modelo": "316GC",
-    "familia": "Outros",
+    "familia": "Escavadeira",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+316GC",
     "detalhes": {
       "Configuração": "TERRAPLANAGEM ALCANCE SD: CABINE ROPS, BRACO 3.0M, LANCA 4,65M, CAÇ SD 0,65M³ (5 DENTES)",
@@ -2290,38 +2324,6 @@ const maquinasMock = [
       "DESCONTO ": 0.1,
       "MARGEM": 0.08220000000000001,
       "BUYDOWN": 0.045
-    }
-  },
-  {
-    "id": 92,
-    "codigo": "SEM636D-07PL.SM",
-    "nome": "Máquina",
-    "modelo": "636D",
-    "familia": "Outros",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+636D",
-    "detalhes": {
-      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA,AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM COMBUSTIVEL DIESEL, COM MOTOR WEICHAI, TIER III(MAR-1), MODELO WP6G125E333, POTENCIA BRUTA 92KW,CACAMBA DE 1.7M3 E 3 TON DE CAPACIDADE DE CARGA, TRANSMISSAO SEM, 2a.VALVULA E AR CONDICIONADO",
-      "3% ACIMA": 412000,
-      "VALOR FEIRA": 400000,
-      "BORSO": 10000,
-      "DESCONTO ": "-",
-      "MARGEM": 0
-    }
-  },
-  {
-    "id": 93,
-    "codigo": "SEM656D-03.SM",
-    "nome": "Máquina",
-    "modelo": "656D",
-    "familia": "Outros",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+656D",
-    "detalhes": {
-      "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSAO SEM TR200 F4/R4, CACAMBA 3M3 PS, PESO OPERACIONAL COM CACAMBA PADRAO DE 17.000KG, COMBUSTIVEL DIESEL, 2a. VALVULA E AR CONDICIONADO.",
-      "3% ACIMA": 628300,
-      "VALOR FEIRA": 610000,
-      "BORSO": 20000,
-      "DESCONTO ": "-",
-      "MARGEM": 0
     }
   }
 ];
