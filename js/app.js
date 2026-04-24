@@ -269,6 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="modal-tabs">
           <button class="modal-tab-btn active" data-target="tab-tech">Ficha Técnica</button>
           <button class="modal-tab-btn" data-target="tab-com">Valores & Condições</button>
+          <button class="modal-tab-btn" data-target="tab-cdc">CDC</button>
         </div>
 
         <div id="tab-tech" class="modal-tab-content active">
@@ -288,6 +289,13 @@ document.addEventListener('DOMContentLoaded', () => {
         <div id="tab-com" class="modal-tab-content">
           <div class="modal-spec-list">
             ${currHtml}
+          </div>
+        </div>
+
+        <div id="tab-cdc" class="modal-tab-content">
+          <div style="text-align: center; padding: 1rem 0;">
+            <img src="./img/cdc.png" alt="Informações CDC" style="max-width: 100%; border-radius: 8px;">
+            <p style="margin-top: 10px; color: var(--gray-medium); font-size: 0.9rem;">Consulte as condições financeiras acima.</p>
           </div>
         </div>
         
