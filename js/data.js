@@ -24,7 +24,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1180000,
       "BORSO": 30000,
       "DESCONTO ": 0.08,
-      "MARGEM": 0.0851
+      "MARGEM": 0.0851,
+      "BUYDOWN": 0
     }
   },
   {
@@ -52,7 +53,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1070000,
       "BORSO": 30000,
       "DESCONTO ": 0.13,
-      "MARGEM": 0.08349999999999999
+      "MARGEM": 0.08349999999999999,
+      "BUYDOWN": 0
     }
   },
   {
@@ -75,7 +77,8 @@ const maquinasMock = [
       "Familia": "MG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1636055.44
+      "Preço CPQ 14%": 1636055.44,
+      "BUYDOWN": 0
     }
   },
   {
@@ -105,7 +108,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1450000,
       "BORSO": 20000,
       "DESCONTO ": 0.06,
-      "MARGEM": 0.1161
+      "MARGEM": 0.1161,
+      "BUYDOWN": 0
     }
   },
   {
@@ -128,7 +132,8 @@ const maquinasMock = [
       "Familia": "MG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1687877.88
+      "Preço CPQ 14%": 1687877.88,
+      "BUYDOWN": 0
     }
   },
   {
@@ -151,7 +156,8 @@ const maquinasMock = [
       "Familia": "MG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1771111.94
+      "Preço CPQ 14%": 1771111.94,
+      "BUYDOWN": 0
     }
   },
   {
@@ -174,7 +180,8 @@ const maquinasMock = [
       "Familia": "SSL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.05,
-      "Preço CPQ 14%": 336883.64
+      "Preço CPQ 14%": 336883.64,
+      "BUYDOWN": 0
     }
   },
   {
@@ -257,7 +264,8 @@ const maquinasMock = [
       "Familia": "SSL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 522045.68
+      "Preço CPQ 14%": 522045.68,
+      "BUYDOWN": 0
     }
   },
   {
@@ -313,7 +321,8 @@ const maquinasMock = [
       "Desconto Vigente PSC": 0.095,
       "Preço CPQ 14%": 338458.57,
       "Opcionais": "Esteira de aço",
-      "Preço opcionais": 5900
+      "Preço opcionais": 5900,
+      "BUYDOWN": 0
     }
   },
   {
@@ -335,7 +344,8 @@ const maquinasMock = [
       "Fabricação": "Importado - China",
       "Familia": "MHEX",
       "Industria": "BCP",
-      "Desconto Vigente PSC": 0.095
+      "Desconto Vigente PSC": 0.095,
+      "BUYDOWN": 0
     }
   },
   {
@@ -389,7 +399,8 @@ const maquinasMock = [
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 688013.41,
       "Opcionais": "Braço 3,0m e Valvula aux com linha",
-      "Preço opcionais": 4400
+      "Preço opcionais": 4400,
+      "BUYDOWN": 0
     }
   },
   {
@@ -505,7 +516,8 @@ const maquinasMock = [
       "Familia": "HEXMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.12,
-      "Preço CPQ 14%": 962613.54
+      "Preço CPQ 14%": 962613.54,
+      "BUYDOWN": 0
     }
   },
   {
@@ -530,7 +542,8 @@ const maquinasMock = [
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 1364832.22,
       "Opcionais": "VALVULA E LINHA PARA MARTELO",
-      "Preço opcionais": 33000
+      "Preço opcionais": 33000,
+      "BUYDOWN": 0
     }
   },
   {
@@ -553,7 +566,8 @@ const maquinasMock = [
       "Familia": "HEXLG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.052,
-      "Preço CPQ 14%": 1610725.98
+      "Preço CPQ 14%": 1610725.98,
+      "BUYDOWN": 0
     }
   },
   {
@@ -578,7 +592,8 @@ const maquinasMock = [
       "Desconto Vigente PSC": 0.07,
       "Preço CPQ 14%": 1941370.92,
       "Opcionais": "Tecnologia de corte + CÂMERA 360, LINHA PARA MARTELO, BOMBA DE REABASTECIMENTO, LUZES NO CONTRAPESO, LUZES DE INSPEÇÃO, Sapata dupla",
-      "Preço opcionais": 330000
+      "Preço opcionais": 330000,
+      "BUYDOWN": 0
     }
   },
   {
@@ -857,7 +872,8 @@ const maquinasMock = [
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1468290.84
+      "Preço CPQ 14%": 1468290.84,
+      "BUYDOWN": 0
     }
   },
   {
@@ -885,7 +901,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1070000,
       "BORSO": 20000,
       "DESCONTO ": 0.06,
-      "MARGEM": 0.0952
+      "MARGEM": 0.0952,
+      "BUYDOWN": 0
     }
   },
   {
@@ -908,7 +925,8 @@ const maquinasMock = [
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1524307.28
+      "Preço CPQ 14%": 1524307.28,
+      "BUYDOWN": 0
     }
   },
   {
@@ -931,7 +949,8 @@ const maquinasMock = [
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1793392.4
+      "Preço CPQ 14%": 1793392.4,
+      "BUYDOWN": 0
     }
   },
   {
@@ -954,7 +973,8 @@ const maquinasMock = [
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1910860.47
+      "Preço CPQ 14%": 1910860.47,
+      "BUYDOWN": 0
     }
   },
   {
@@ -977,7 +997,8 @@ const maquinasMock = [
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 2755824.79
+      "Preço CPQ 14%": 2755824.79,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1000,7 +1021,8 @@ const maquinasMock = [
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.088,
-      "Preço CPQ 14%": 698765.22
+      "Preço CPQ 14%": 698765.22,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1022,7 +1044,8 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "ACOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.068
+      "Desconto Vigente PSC": 0.068,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1044,7 +1067,8 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "ACOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.068
+      "Desconto Vigente PSC": 0.068,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1067,7 +1091,8 @@ const maquinasMock = [
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.088,
-      "Preço CPQ 14%": 645092.97
+      "Preço CPQ 14%": 645092.97,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1088,7 +1113,8 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "ACOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.068
+      "Desconto Vigente PSC": 0.068,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1110,7 +1136,8 @@ const maquinasMock = [
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 747147.08
+      "Preço CPQ 14%": 747147.08,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1133,7 +1160,8 @@ const maquinasMock = [
       "Familia": "ACOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 654496.76
+      "Preço CPQ 14%": 654496.76,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1161,7 +1189,8 @@ const maquinasMock = [
       "VALOR FEIRA": 585000,
       "BORSO": 10000,
       "DESCONTO ": 0.115,
-      "MARGEM": 0.102
+      "MARGEM": 0.102,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1184,7 +1213,8 @@ const maquinasMock = [
       "Familia": "SCOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 748578.73
+      "Preço CPQ 14%": 748578.73,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1212,7 +1242,8 @@ const maquinasMock = [
       "VALOR FEIRA": 620000,
       "BORSO": 10000,
       "DESCONTO ": 0.115,
-      "MARGEM": 0.1045
+      "MARGEM": 0.1045,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1234,7 +1265,8 @@ const maquinasMock = [
       "Fabricação": "Importado",
       "Familia": "SCOM",
       "Industria": "PAV",
-      "Desconto Vigente PSC": 0.075
+      "Desconto Vigente PSC": 0.075,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1257,7 +1289,8 @@ const maquinasMock = [
       "Familia": "SCOM",
       "Industria": "PAV",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 485106.28
+      "Preço CPQ 14%": 485106.28,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1285,7 +1318,8 @@ const maquinasMock = [
       "VALOR FEIRA": 735000,
       "BORSO": 15000,
       "DESCONTO ": 0.14300000000000002,
-      "MARGEM": 0.076
+      "MARGEM": 0.076,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1313,7 +1347,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1085000,
       "BORSO": 40000,
       "DESCONTO ": 0.06,
-      "MARGEM": 0.0603
+      "MARGEM": 0.0603,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1341,7 +1376,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1410000,
       "BORSO": 60000,
       "DESCONTO ": 0.06,
-      "MARGEM": 0.0584
+      "MARGEM": 0.0584,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1364,7 +1400,8 @@ const maquinasMock = [
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.113,
-      "Preço CPQ 14%": 1448725.19
+      "Preço CPQ 14%": 1448725.19,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1387,7 +1424,8 @@ const maquinasMock = [
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.06,
-      "Preço CPQ 14%": 1907203.65
+      "Preço CPQ 14%": 1907203.65,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1410,7 +1448,8 @@ const maquinasMock = [
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
-      "Preço CPQ 14%": 2934133.03
+      "Preço CPQ 14%": 2934133.03,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1433,7 +1472,8 @@ const maquinasMock = [
       "Familia": "TTTMD",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.09,
-      "Preço CPQ 14%": 3851645.03
+      "Preço CPQ 14%": 3851645.03,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1453,7 +1493,8 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado",
       "Familia": "WHEX",
-      "Industria": "GCI"
+      "Industria": "GCI",
+      "BUYDOWN": 0
     }
   },
   {
@@ -1479,7 +1520,8 @@ const maquinasMock = [
       "VALOR FEIRA": 270000,
       "BORSO": 10000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1505,7 +1547,8 @@ const maquinasMock = [
       "VALOR FEIRA": 260000,
       "BORSO": 10000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1531,7 +1574,8 @@ const maquinasMock = [
       "VALOR FEIRA": 400000,
       "BORSO": 10000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1557,7 +1601,8 @@ const maquinasMock = [
       "VALOR FEIRA": 430000,
       "BORSO": 10000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1582,7 +1627,8 @@ const maquinasMock = [
       "VALOR FEIRA": 610000,
       "BORSO": 20000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1607,7 +1653,8 @@ const maquinasMock = [
       "VALOR FEIRA": 750000,
       "BORSO": 20000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1632,7 +1679,8 @@ const maquinasMock = [
       "VALOR FEIRA": 800000,
       "BORSO": 20000,
       "DESCONTO ": "-",
-      "MARGEM": 0
+      "MARGEM": 0,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1660,7 +1708,8 @@ const maquinasMock = [
       "VALOR FEIRA": 1450000,
       "BORSO": 20000,
       "DESCONTO ": 0.06,
-      "MARGEM": 0.1161
+      "MARGEM": 0.1161,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1712,7 +1761,8 @@ const maquinasMock = [
       "Familia": "MHEX",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.14,
-      "Preço CPQ 14%": 299684.41
+      "Preço CPQ 14%": 299684.41,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1735,7 +1785,8 @@ const maquinasMock = [
       "Familia": "MHEX",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.14,
-      "Preço CPQ 14%": 293868.96
+      "Preço CPQ 14%": 293868.96,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1787,7 +1838,8 @@ const maquinasMock = [
       "Familia": "HEXSM",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 695674.74
+      "Preço CPQ 14%": 695674.74,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1810,7 +1862,8 @@ const maquinasMock = [
       "Familia": "HEXSM",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 692417.95
+      "Preço CPQ 14%": 692417.95,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1920,7 +1973,8 @@ const maquinasMock = [
       "Familia": "HEXLG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.052,
-      "Preço CPQ 14%": 1398135.58
+      "Preço CPQ 14%": 1398135.58,
+      "BUYDOWN": 0
     }
   },
   {
@@ -1943,7 +1997,8 @@ const maquinasMock = [
       "Familia": "HEXLG",
       "Industria": "GCI",
       "Desconto Vigente PSC": 0.07,
-      "Preço CPQ 14%": 2024912.42
+      "Preço CPQ 14%": 2024912.42,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2050,7 +2105,8 @@ const maquinasMock = [
       "Familia": "BHL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.063,
-      "Preço CPQ 14%": 535092.1
+      "Preço CPQ 14%": 535092.1,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2100,7 +2156,8 @@ const maquinasMock = [
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
-      "Preço CPQ 14%": 592918.92
+      "Preço CPQ 14%": 592918.92,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2122,7 +2179,8 @@ const maquinasMock = [
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
-      "Preço CPQ 14%": 609089.7
+      "Preço CPQ 14%": 609089.7,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2172,7 +2230,8 @@ const maquinasMock = [
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.084,
-      "Preço CPQ 14%": 645125.06
+      "Preço CPQ 14%": 645125.06,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2222,7 +2281,8 @@ const maquinasMock = [
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
-      "Preço CPQ 14%": 804897.48
+      "Preço CPQ 14%": 804897.48,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2244,7 +2304,8 @@ const maquinasMock = [
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
-      "Preço CPQ 14%": 792790.97
+      "Preço CPQ 14%": 792790.97,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2266,7 +2327,8 @@ const maquinasMock = [
       "Familia": "SWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.092,
-      "Preço CPQ 14%": 796290
+      "Preço CPQ 14%": 796290,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2288,7 +2350,8 @@ const maquinasMock = [
       "Familia": "MWL",
       "Industria": "BCP",
       "Desconto Vigente PSC": 0.075,
-      "Preço CPQ 14%": 1816161.76
+      "Preço CPQ 14%": 1816161.76,
+      "BUYDOWN": 0
     }
   },
   {
@@ -2306,7 +2369,8 @@ const maquinasMock = [
       "Consumo Garantido": "-",
       "Fabricação": "Importado - India",
       "Familia": "AT",
-      "Industria": "GCI"
+      "Industria": "GCI",
+      "BUYDOWN": 0
     }
   },
   {
