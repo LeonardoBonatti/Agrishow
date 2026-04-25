@@ -1,10 +1,10 @@
-const CACHE_NAME = 'sotreq-agrishow-v26';
+const CACHE_NAME = 'sotreq-agrishow-v27';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=26',
-  './css/style.css?v=26',
-  './js/app.js?v=26',
-  './js/data.js?v=26',
+  './index.html?v=27',
+  './css/style.css?v=27',
+  './js/app.js?v=27',
+  './js/data.js?v=27',
   './img/icon-192.png',
   './img/icon-512.png',
   './img/app_icon.png'
@@ -34,7 +34,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request, {ignoreSearch: true}).then((response) => {
+    caches.match(event.request, { ignoreSearch: !event.request.url.includes('placehold.co') }).then((response) => {
       if (response) {
         return response;
       }
@@ -48,7 +48,7 @@ self.addEventListener('fetch', (event) => {
         });
       }).catch(() => {
         // Se a rede falhar e for navegação de tela, força carregar o index offline
-        if (event.request.mode === 'navigate' || event.request.headers.get('accept').includes('text/html')) {
+        if (event.request.mode === 'navigate' || (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'))) {
           return caches.match('./index.html', {ignoreSearch: true});
         }
       });
