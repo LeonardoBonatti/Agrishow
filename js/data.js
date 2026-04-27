@@ -2661,9 +2661,10 @@ const maquinasMock = [
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Perfuratriz",
     "detalhes": {
-      "Tipo": "Implemento para Miniescavadeira",
-      "Aplicação": "Miniescavadeira",
-      "Código": "218-3197",
+      "Torque do Eixo de Comando à Pressão Máxima": "2304 N·m",
+      "Método de Acionamento": "Motor Gerotor - Transmissão Direta",
+      "Projeto do Suporte de Montagem": "Miniescavadeira Pinada de 2 Toneladas",
+      "Modelos Compatíveis": "Broca A14B A23",
       "Preço": 9203.81,
       "BUYDOWN": 0
     }
@@ -2676,9 +2677,10 @@ const maquinasMock = [
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Martelo+B4S",
     "detalhes": {
-      "Tipo": "Implemento para Miniescavadeira",
-      "Aplicação": "Miniescavadeira",
-      "Código": "532-9204",
+      "Peso Operacional - Com Ferramenta": "162 kg",
+      "Model/Style": "B4s Top Mount",
+      "Classe de Energia": "370 J",
+      "Modelos Compatíveis": "Martelo B4",
       "Preço": 19841.29,
       "BUYDOWN": 0
     }
@@ -2691,10 +2693,41 @@ const maquinasMock = [
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Caçamba+Trapezoidal",
     "detalhes": {
-      "Tipo": "Implemento para Retroescavadeira",
-      "Aplicação": "Retroescavadeira",
-      "Código": "648-5939",
+      "Capacidade": "0,34 m³ (0,44 yd³)",
+      "Peso": "177,0 kg",
+      "Modelos Compatíveis": "Retroescavadeira 415 416 428 444 434 440 430 420 432 432F2 420XE 420F2 430F2 444F2 434F2 416F2 427F2 415F2 428F2",
       "Preço": 8173.75,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 108,
+    "codigo": "372-0256",
+    "nome": "Implemento",
+    "modelo": "Broca A19B",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Broca+A19B",
+    "detalhes": {
+      "Comprimento Total": "1067 mm",
+      "Peso": "20 kg",
+      "Modelos Compatíveis": "Broca A19B A26B A41 A7B A14B A23 A68 A11",
+      "Preço": 0,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 109,
+    "codigo": "153-4084",
+    "nome": "Implemento",
+    "modelo": "Broca Standard",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Broca+Standard",
+    "detalhes": {
+      "Type": "Standard Bit",
+      "Tipo": "Ponta padrão",
+      "Comprimento Total": "1238 mm",
+      "Modelos Compatíveis": "Broca A41 A7 A19B A19 A26B A7B A14B A23 A13 A68 A11 A26",
+      "Preço": 0,
       "BUYDOWN": 0
     }
   }
