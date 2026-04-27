@@ -2575,8 +2575,8 @@ const maquinasMock = [
   {
     "id": 103,
     "codigo": "610-2670",
-    "nome": "Roçadeira",
-    "modelo": "Roçadeira Minicarregadeira",
+    "nome": "Implemento",
+    "modelo": "Roçadeira",
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Roçadeira",
     "detalhes": {
@@ -2590,7 +2590,7 @@ const maquinasMock = [
   {
     "id": 104,
     "codigo": "626-4231",
-    "nome": "Vassoura",
+    "nome": "Implemento",
     "modelo": "Vassoura BU115",
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Vassoura+BU115",
@@ -2605,8 +2605,8 @@ const maquinasMock = [
   {
     "id": 105,
     "codigo": "218-3197",
-    "nome": "Perfuratriz",
-    "modelo": "Perfuratriz Miniescavadeira",
+    "nome": "Implemento",
+    "modelo": "Perfuratriz",
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Perfuratriz",
     "detalhes": {
@@ -2620,7 +2620,7 @@ const maquinasMock = [
   {
     "id": 106,
     "codigo": "532-9204",
-    "nome": "Martelo",
+    "nome": "Implemento",
     "modelo": "Martelo B4S",
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Martelo+B4S",
@@ -2635,7 +2635,7 @@ const maquinasMock = [
   {
     "id": 107,
     "codigo": "648-5939",
-    "nome": "Caçamba Trapezoidal",
+    "nome": "Implemento",
     "modelo": "Caçamba Trapezoidal",
     "familia": "Implementos de Mini e Retro",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Caçamba+Trapezoidal",
