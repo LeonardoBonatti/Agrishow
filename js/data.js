@@ -2399,7 +2399,15 @@ const maquinasMock = [
     "familia": "Rompedores Hidráulicos",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+H110GC",
     "detalhes": {
-      "Ficha Técnica": "A ser enviada posteriormente",
+      "Sopros por Minuto": "350-700",
+      "Peso Operacional Mínimo": "917 kg",
+      "Fluxo Mínimo Nominal": "80 l/min",
+      "Fluxo Máximo Nominal": "100 l/min",
+      "Pressão de Operação Mínima": "14.700 kPa",
+      "Pressão de Operação Máxima": "16.600 kPa",
+      "Diâmetro do Eixo da Ferramenta": "100 mm",
+      "Peso Mínimo do Transportador": "10 t",
+      "Peso Máximo do Transportador": "18 t",
       "Preço": 66396.15,
       "Preço (Ind)": 49642.37
     }
@@ -2412,7 +2420,15 @@ const maquinasMock = [
     "familia": "Rompedores Hidráulicos",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+H120GC",
     "detalhes": {
-      "Ficha Técnica": "A ser enviada posteriormente",
+      "Sopros por Minuto": "350-550",
+      "Peso Operacional Mínimo": "2.004 kg",
+      "Fluxo Mínimo Nominal": "120 l/min",
+      "Fluxo Máximo Nominal": "180 l/min",
+      "Pressão de Operação Mínima": "15.700 kPa",
+      "Pressão de Operação Máxima": "17.700 kPa",
+      "Diâmetro do Eixo da Ferramenta": "140 mm",
+      "Peso Mínimo do Transportador": "18 t",
+      "Peso Máximo do Transportador": "30 t",
       "Preço": 87895.75,
       "Preço (Ind)": 65878.87
     }
@@ -2425,7 +2441,15 @@ const maquinasMock = [
     "familia": "Rompedores Hidráulicos",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+H120GCS",
     "detalhes": {
-      "Ficha Técnica": "A ser enviada posteriormente",
+      "Sopros por Minuto": "400-800",
+      "Peso Operacional Mínimo": "1.746 kg",
+      "Fluxo Nominal Mínimo": "125 l/min",
+      "Fluxo Nominal Máximo": "150 l/min",
+      "Pressão de Operação Mínima": "16.000 kPa",
+      "Pressão de Operação Máxima": "18.000 kPa",
+      "Diâmetro do Eixo da Ferramenta": "135 mm",
+      "Peso Mínimo do Transportador": "18 t",
+      "Peso Máximo do Transportador": "25 t",
       "Preço": 108451.39,
       "Preço (Ind)": 81402.49
     }
@@ -2438,7 +2462,15 @@ const maquinasMock = [
     "familia": "Rompedores Hidráulicos",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+H140GC",
     "detalhes": {
-      "Ficha Técnica": "A ser enviada posteriormente",
+      "Sopros por Minuto": "250-380",
+      "Peso Operacional Mínimo": "3.502 kg",
+      "Fluxo Mínimo Nominal": "200 l/min",
+      "Fluxo Máximo Nominal": "250 l/min",
+      "Pressão de Operação Mínima": "15.700 kPa",
+      "Pressão de Operação Máxima": "18.600 kPa",
+      "Diâmetro do Eixo da Ferramenta": "165 mm",
+      "Peso Mínimo do Transportador": "30 t",
+      "Peso Máximo do Transportador": "40 t",
       "Preço": 151638.02,
       "Preço (Ind)": 114017.03
     }
