@@ -2699,36 +2699,5 @@ const maquinasMock = [
       "Preço": 8173.75,
       "BUYDOWN": 0
     }
-  },
-  {
-    "id": 108,
-    "codigo": "372-0256",
-    "nome": "Implemento",
-    "modelo": "Broca A19B",
-    "familia": "Implementos de Mini e Retro",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Broca+A19B",
-    "detalhes": {
-      "Comprimento Total": "1067 mm",
-      "Peso": "20 kg",
-      "Modelos Compatíveis": "Broca A19B A26B A41 A7B A14B A23 A68 A11",
-      "Preço": 0,
-      "BUYDOWN": 0
-    }
-  },
-  {
-    "id": 109,
-    "codigo": "153-4084",
-    "nome": "Implemento",
-    "modelo": "Broca Standard",
-    "familia": "Implementos de Mini e Retro",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Broca+Standard",
-    "detalhes": {
-      "Type": "Standard Bit",
-      "Tipo": "Ponta padrão",
-      "Comprimento Total": "1238 mm",
-      "Modelos Compatíveis": "Broca A41 A7 A19B A19 A26B A7B A14B A23 A13 A68 A11 A26",
-      "Preço": 0,
-      "BUYDOWN": 0
-    }
   }
 ];

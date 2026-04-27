@@ -1,10 +1,10 @@
-const CACHE_NAME = 'sotreq-agrishow-v35';
+const CACHE_NAME = 'sotreq-agrishow-v36';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=35',
-  './css/style.css?v=35',
-  './js/app.js?v=35',
-  './js/data.js?v=35',
+  './index.html?v=36',
+  './css/style.css?v=36',
+  './js/app.js?v=36',
+  './js/data.js?v=36',
   './img/icon-192.png',
   './img/icon-512.png',
   './img/app_icon.png'
