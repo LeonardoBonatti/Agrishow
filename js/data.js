@@ -2455,5 +2455,164 @@ const maquinasMock = [
       "Preço": 171967.09,
       "Preço (Ind)": 129369.55
     }
+  },
+  {
+    "id": 97,
+    "codigo": "529-5780",
+    "nome": "Fresa",
+    "modelo": "PC305",
+    "familia": "Fresas (Alta Performance)",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+PC305",
+    "detalhes": {
+      "Tipo": "Fresa de Alta Performance",
+      "Código": "529-5780",
+      "Preço": 64793.35,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 98,
+    "codigo": "529-5790",
+    "nome": "Fresa",
+    "modelo": "PC306",
+    "familia": "Fresas (Alta Performance)",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+PC306",
+    "detalhes": {
+      "Tipo": "Fresa de Alta Performance",
+      "Código": "529-5790",
+      "Preço": 69486.93,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 99,
+    "codigo": "532-9108",
+    "nome": "Rompedor",
+    "modelo": "B8",
+    "familia": "Rompedores para Retroescavadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+B8",
+    "detalhes": {
+      "Tipo": "Rompedor para Retroescavadeira",
+      "Código": "532-9108",
+      "Preço": 25046.37,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 100,
+    "codigo": "532-9208",
+    "nome": "Rompedor",
+    "modelo": "B8S",
+    "familia": "Rompedores para Retroescavadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+B8S",
+    "detalhes": {
+      "Tipo": "Rompedor para Retroescavadeira",
+      "Código": "532-9208",
+      "Preço": 32635.03,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 101,
+    "codigo": "612-9640",
+    "nome": "Placa Compactadora",
+    "modelo": "CVP40",
+    "familia": "Placas Compactadoras",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+CVP40",
+    "detalhes": {
+      "Tipo": "Placa Compactadora",
+      "Código": "612-9640",
+      "Preço": 23577.89,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 102,
+    "codigo": "612-9655",
+    "nome": "Placa Compactadora",
+    "modelo": "CVP55",
+    "familia": "Placas Compactadoras",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+CVP55",
+    "detalhes": {
+      "Tipo": "Placa Compactadora",
+      "Código": "612-9655",
+      "Preço": 32415.00,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 103,
+    "codigo": "610-2670",
+    "nome": "Roçadeira",
+    "modelo": "Roçadeira Minicarregadeira",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Roçadeira",
+    "detalhes": {
+      "Tipo": "Implemento para Minicarregadeira",
+      "Aplicação": "Minicarregadeira",
+      "Código": "610-2670",
+      "Preço": 20497.72,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 104,
+    "codigo": "626-4231",
+    "nome": "Vassoura",
+    "modelo": "Vassoura BU115",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Vassoura+BU115",
+    "detalhes": {
+      "Tipo": "Implemento para Minicarregadeira",
+      "Aplicação": "Minicarregadeira",
+      "Código": "626-4231",
+      "Preço": 18205.94,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 105,
+    "codigo": "218-3197",
+    "nome": "Perfuratriz",
+    "modelo": "Perfuratriz Miniescavadeira",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Perfuratriz",
+    "detalhes": {
+      "Tipo": "Implemento para Miniescavadeira",
+      "Aplicação": "Miniescavadeira",
+      "Código": "218-3197",
+      "Preço": 9203.81,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 106,
+    "codigo": "532-9204",
+    "nome": "Martelo",
+    "modelo": "Martelo B4S",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Martelo+B4S",
+    "detalhes": {
+      "Tipo": "Implemento para Miniescavadeira",
+      "Aplicação": "Miniescavadeira",
+      "Código": "532-9204",
+      "Preço": 19841.29,
+      "BUYDOWN": 0
+    }
+  },
+  {
+    "id": 107,
+    "codigo": "648-5939",
+    "nome": "Caçamba Trapezoidal",
+    "modelo": "Caçamba Trapezoidal",
+    "familia": "Implementos de Mini e Retro",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=Caçamba+Trapezoidal",
+    "detalhes": {
+      "Tipo": "Implemento para Retroescavadeira",
+      "Aplicação": "Retroescavadeira",
+      "Código": "648-5939",
+      "Preço": 8173.75,
+      "BUYDOWN": 0
+    }
   }
 ];
