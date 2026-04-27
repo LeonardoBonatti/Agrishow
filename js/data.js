@@ -277,6 +277,7 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+302.7",
     "detalhes": {
       "Arranjo": "03",
+      "Disponibilidade": "⚠️ Limitado a 10 Unidades",
       "Configuração": "TOLDO, ESTEIRA DE AÇO, ENGATE RÁPIDO MANUAL, JOYSTICK ELETROHIDRÁULICO, CABINE ABERTA REBATÍVEL, CAÇAMBA DE 0,08M³ E 460MM",
       "Contato com o solo": "ESTEIRA DE AÇO",
       "Peso Operacional": "2.925Kg",
