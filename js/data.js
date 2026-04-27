@@ -2496,8 +2496,21 @@ const maquinasMock = [
     "familia": "Fresas (Alta Performance)",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+PC305",
     "detalhes": {
-      "Tipo": "Fresa de Alta Performance",
-      "Código": "529-5780",
+      "Largura Operacional": "450 mm",
+      "Profundidade de Corte Máxima": "170 mm",
+      "Hidráulica Necessária": "Alto Fluxo",
+      "Largura Total": "1858 mm",
+      "Comprimento Total": "1248 mm",
+      "Altura Total": "930 mm",
+      "Peso": "848 kg",
+      "Fluxo Hidráulico Ideal": "98-125 l/min (26-33 gpm)",
+      "Pressão Hidráulica Ideal": "230-280 bar (3.300-4.000 lb/pol²)",
+      "Velocidade do Tambor": "149 rpm",
+      "Tambor Opcional - Larguras/Profundidades": "80/200, 150/200, 300/200 mm",
+      "Faixa do Ângulo de Inclinação": "8° à Esquerda/Direita",
+      "Percurso de Deslocamento Lateral": "750 mm",
+      "Brocas Cônicas": "42",
+      "Tipo da Broca Padrão": "Uso Geral",
       "Preço": 64793.35,
       "BUYDOWN": 0
     }
@@ -2510,8 +2523,21 @@ const maquinasMock = [
     "familia": "Fresas (Alta Performance)",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+PC306",
     "detalhes": {
-      "Tipo": "Fresa de Alta Performance",
-      "Código": "529-5790",
+      "Largura Operacional": "600 mm",
+      "Profundidade de Corte Máxima": "170 mm",
+      "Hidráulica Necessária": "Alto Fluxo",
+      "Largura Total": "1858 mm",
+      "Comprimento Total": "1248 mm",
+      "Altura Total": "930 mm",
+      "Peso": "956 kg",
+      "Fluxo Hidráulico Ideal": "98-125 l/min (26-33 gpm)",
+      "Pressão Hidráulica Ideal": "230-280 bar (3.300-4.000 lb/pol²)",
+      "Velocidade do Tambor": "149 rpm",
+      "Tambor Opcional - Larguras/Profundidades": "80/200, 150/200, 300/200, 450/200, 600/170 mm",
+      "Faixa do Ângulo de Inclinação": "8° à Esquerda/Direita",
+      "Percurso de Deslocamento Lateral": "750 mm",
+      "Brocas Cônicas": "54",
+      "Tipo da Broca Padrão": "Uso Geral",
       "Preço": 69486.93,
       "BUYDOWN": 0
     }
@@ -2524,8 +2550,20 @@ const maquinasMock = [
     "familia": "Rompedores para Retroescavadeira",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+B8",
     "detalhes": {
-      "Tipo": "Rompedor para Retroescavadeira",
-      "Código": "532-9108",
+      "Peso Operacional - Com Ferramenta": "349.7 kg",
+      "Model/Style": "B8 Top Mount",
+      "Classe de Energia": "1150 J",
+      "Classe da Máquina": "Miniescavadeiras de 6–9 Toneladas, Minicarregadeiras/Pás-carregadeiras de Esteiras 216–299, Retroescavadeiras 415–444",
+      "Diâmetro do Eixo da Ferramenta": "75 mm",
+      "Frequência de Impacto": "400 - 800 bpm",
+      "Pressão de Operação Mínima": "11749 kPa",
+      "Peso Mínimo do Transportador": "6350 kg",
+      "Fluxo Hidráulico Ideal": "50-90 lpm (13,2-23,8 gpm)",
+      "Largura Total": "316 mm",
+      "Comprimento Total": "440 mm",
+      "Altura Total": "1413 mm",
+      "Altura - Sem Ferramenta": "1005 mm",
+      "Nível Sonoro": "133 dB",
       "Preço": 25046.37,
       "BUYDOWN": 0
     }
@@ -2538,8 +2576,21 @@ const maquinasMock = [
     "familia": "Rompedores para Retroescavadeira",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+B8S",
     "detalhes": {
-      "Tipo": "Rompedor para Retroescavadeira",
-      "Código": "532-9208",
+      "Peso Operacional - Com Ferramenta": "344 kg",
+      "Model/Style": "B8s Top Mount",
+      "Classe de Energia": "1150 J",
+      "Classe da Máquina": "Miniescavadeiras de 6–9 Toneladas, Minicarregadeiras/Pás-carregadeiras de Esteiras 216–299, Retroescavadeiras 415–444",
+      "Diâmetro do Eixo da Ferramenta": "75 mm",
+      "Frequência de Impacto": "400 - 800 bpm",
+      "Pressão de Operação Mínima": "11749 kPa",
+      "Peso Mínimo do Transportador": "6350 kg",
+      "Fluxo Hidráulico Ideal": "50-90 lpm (13,2-23,8 gpm)",
+      "Largura Total": "316 mm",
+      "Comprimento Total": "440 mm",
+      "Altura Total": "1402 mm",
+      "Altura - Sem Ferramenta": "1044 mm",
+      "Nível Sonoro": "129 dB",
+      "Sound Suppression": "Silenced",
       "Preço": 32635.03,
       "BUYDOWN": 0
     }
@@ -2552,8 +2603,8 @@ const maquinasMock = [
     "familia": "Placas Compactadoras",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+CVP40",
     "detalhes": {
-      "Tipo": "Placa Compactadora",
-      "Código": "612-9640",
+      "Material": "Anti-Sieze Compound Mixed: Metal, Sealants / Adhesives Adhesive",
+      "Modelos Compatíveis": "RETROESCAVADEIRA 415 416 428 444 434 440 430 420 432 450 420XE, MINIESCAVADEIRA HIDRÁULICA 308 309",
       "Preço": 23577.89,
       "BUYDOWN": 0
     }
@@ -2566,8 +2617,8 @@ const maquinasMock = [
     "familia": "Placas Compactadoras",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+CVP55",
     "detalhes": {
-      "Tipo": "Placa Compactadora",
-      "Código": "612-9655",
+      "Material": "Sealants / Adhesives Adhesive, Anti-Sieze Compound Mixed: Metal",
+      "Modelos Compatíveis": "RETROESCAVADEIRA 416 420XE 430 420 450, MINIESCAVADEIRA HIDRÁULICA 308 309",
       "Preço": 32415.00,
       "BUYDOWN": 0
     }
