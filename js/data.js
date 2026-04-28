@@ -1879,7 +1879,7 @@ const maquinasMock = [
     "id": 71,
     "codigo": "SEM919BRZ-01APLB.SM",
     "nome": "Motoniveladora",
-    "modelo": "SEM 919F",
+    "modelo": "919F",
     "familia": "Motoniveladora",
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM919F",
     "detalhes": {
