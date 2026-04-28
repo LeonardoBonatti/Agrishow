@@ -12,8 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalBody = document.getElementById('modalBody');
 
   // State
+  let currentCategory = 'all';
   let currentFilter = 'all';
   let searchTerm = '';
+
+  const implementFamilies = [
+    'Rompedores Hidráulicos',
+    'Rompedores para Retroescavadeira',
+    'Placas Compactadoras',
+    'Fresas (Alta Performance)',
+    'Implementos de Mini e Retro'
+  ];
 
   // Initial render
   generateChips(maquinasMock);
@@ -49,6 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Dynamic Filtering Chips ---
   function generateChips(machines) {
+    const activeChipText = currentFilter;
+    chipsContainer.innerHTML = '<button class="chip active" data-filter="all">Todas</button>';
     const families = new Set(machines.map(m => m.familia));
     const sortedFamilies = Array.from(families).sort();
     
@@ -56,10 +67,37 @@ document.addEventListener('DOMContentLoaded', () => {
       if(family && family !== 'Outros') {
         const btn = document.createElement('button');
         btn.className = 'chip';
+        if (family === activeChipText) {
+          btn.classList.add('active');
+          chipsContainer.querySelector('.chip[data-filter="all"]').classList.remove('active');
+        }
         btn.setAttribute('data-filter', family);
         btn.textContent = family;
         chipsContainer.appendChild(btn);
       }
+    });
+
+    const stillExists = Array.from(chipsContainer.querySelectorAll('.chip')).some(c => c.getAttribute('data-filter') === currentFilter);
+    if (!stillExists) {
+        currentFilter = 'all';
+        chipsContainer.querySelector('.chip[data-filter="all"]').classList.add('active');
+    }
+  }
+
+  // --- Category Tabs Logic ---
+  const categoryTabs = document.getElementById('categoryTabs');
+  if (categoryTabs) {
+    categoryTabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('.category-tab');
+      if (!btn) return;
+
+      categoryTabs.querySelectorAll('.category-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      currentCategory = btn.getAttribute('data-category');
+      currentFilter = 'all'; 
+      
+      applyFilters();
     });
   }
 
@@ -79,23 +117,32 @@ document.addEventListener('DOMContentLoaded', () => {
   function applyFilters() {
     let filtered = maquinasMock;
 
-    // Filter by family
+    // 1. Filter by category
+    if (currentCategory === 'maquinas') {
+      filtered = filtered.filter(m => !implementFamilies.includes(m.familia));
+    } else if (currentCategory === 'implementos') {
+      filtered = filtered.filter(m => implementFamilies.includes(m.familia));
+    }
+
+    // 2. Update chips based on category
+    generateChips(filtered);
+
+    // 3. Filter by family (chip)
     if (currentFilter !== 'all') {
       filtered = filtered.filter(m => m.familia === currentFilter);
     }
 
-    // Filter by search term
+    // 4. Filter by search term
     if (searchTerm) {
       const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
       filtered = filtered.filter(m => {
         const fullString = `${m.nome} ${m.modelo} ${m.codigo} ${m.familia}`.toLowerCase();
-        // Return true if EVERY typed word exists in the full string
         return searchWords.every(word => fullString.includes(word));
       });
     }
 
     // Update info text
-    if (currentFilter === 'all' && !searchTerm) {
+    if (currentFilter === 'all' && !searchTerm && currentCategory === 'all') {
       resultsInfo.textContent = `Exibindo todas as máquinas (${filtered.length})`;
     } else {
       resultsInfo.textContent = `${filtered.length} resultado(s) encontrado(s)`;

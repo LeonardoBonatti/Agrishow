@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=39">
+    <link rel="stylesheet" href="css/style.css?v=40">
 </head>
 <body>
 
@@ -74,6 +74,15 @@
                 <!-- Autocomplete items dynamically injected here -->
             </div>
         </section>
+        
+        <!-- Category Filter (Top Level) -->
+        <section class="category-section">
+            <div class="category-tabs" id="categoryTabs">
+                <button class="category-tab active" data-category="all">Todos</button>
+                <button class="category-tab" data-category="maquinas">Máquinas</button>
+                <button class="category-tab" data-category="implementos">Implementos</button>
+            </div>
+        </section>
 
         <section class="filters-section">
             <div class="chips-container" id="chipsContainer">
@@ -104,8 +113,8 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/data.js?v=39"></script>
-    <script src="js/app.js?v=39"></script>
+    <script src="js/data.js?v=40"></script>
+    <script src="js/app.js?v=40"></script>
     <script>
         // Registrar Service Worker
         if ('serviceWorker' in navigator) {
