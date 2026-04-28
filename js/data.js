@@ -2408,8 +2408,21 @@ const maquinasMock = [
       "Diâmetro do Eixo da Ferramenta": "100 mm",
       "Peso Mínimo do Transportador": "10 t",
       "Peso Máximo do Transportador": "18 t",
-      "Preço": 66396.15,
-      "Preço (Ind)": 49642.37
+      "Preço": 80600.00,
+      "Preço (Ind)": 60345.50
+    }
+  },
+  {
+    "id": 110,
+    "codigo": "H110GCS",
+    "nome": "Rompedor Hidráulico",
+    "modelo": "H110GCS",
+    "familia": "Rompedores Hidráulicos",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+H110GCS",
+    "detalhes": {
+      "Ficha Técnica": "A ser enviada posteriormente",
+      "Preço": 75600.00,
+      "Preço (Ind)": 56574.11
     }
   },
   {
@@ -2429,8 +2442,8 @@ const maquinasMock = [
       "Diâmetro do Eixo da Ferramenta": "140 mm",
       "Peso Mínimo do Transportador": "18 t",
       "Peso Máximo do Transportador": "30 t",
-      "Preço": 87895.75,
-      "Preço (Ind)": 65878.87
+      "Preço": 100000.00,
+      "Preço (Ind)": 74935.64
     }
   },
   {
@@ -2450,8 +2463,8 @@ const maquinasMock = [
       "Diâmetro do Eixo da Ferramenta": "135 mm",
       "Peso Mínimo do Transportador": "18 t",
       "Peso Máximo do Transportador": "25 t",
-      "Preço": 108451.39,
-      "Preço (Ind)": 81402.49
+      "Preço": 123500.00,
+      "Preço (Ind)": 92490.98
     }
   },
   {
@@ -2471,8 +2484,8 @@ const maquinasMock = [
       "Diâmetro do Eixo da Ferramenta": "165 mm",
       "Peso Mínimo do Transportador": "30 t",
       "Peso Máximo do Transportador": "40 t",
-      "Preço": 151638.02,
-      "Preço (Ind)": 114017.03
+      "Preço": 172000.00,
+      "Preço (Ind)": 129374.10
     }
   },
   {
@@ -2484,8 +2497,8 @@ const maquinasMock = [
     "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+H140GCS",
     "detalhes": {
       "Ficha Técnica": "A ser enviada posteriormente",
-      "Preço": 171967.09,
-      "Preço (Ind)": 129369.55
+      "Preço": 195000.00,
+      "Preço (Ind)": 146735.96
     }
   },
   {
