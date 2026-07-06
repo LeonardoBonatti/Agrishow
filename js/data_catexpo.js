@@ -565,5 +565,126 @@ const maquinasCatExpo = [
       "VALOR CAT EXPO": 620000,
       "Obs": "PROGRAMA +5% SPAR"
     }
+  },
+
+  // ===== SEM =====
+  {
+    "id": 1070,
+    "codigo": "SEM618D-03.SM",
+    "nome": "Carregadeira SEM",
+    "modelo": "SEM618D",
+    "familia": "Carregadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM618D",
+    "detalhes": {
+      "Arranjo": "03",
+      "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG, POTENCIA NOMINAL BRUTA DE 62,5KW (84HP), MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COM DISPOSITIVO DE ENGATE RÁPIDO COM PINO HORIZONTAL, CAÇAMBA, GARFO PALLET, 3a VÁLVULA E AR CONDICIONADO.",
+      "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
+      "Motor": "YTO 4.7 - 84hp",
+      "Ferramentas": "CAÇAMBA DE 1.0M³ e GARFO PALLET",
+      "Capacidade": "1.800Kg",
+      "Fabricação": "Importado - China",
+      "Familia": "CWL",
+      "Industria": "BCP",
+      "Disponibilidade": "⚠️ Limitada a 5 unidades",
+      "VALOR CAT EXPO": 265000,
+      "BORSO": 13000,
+      "Obs": "-"
+    }
+  },
+  {
+    "id": 1071,
+    "codigo": "SEM618D-05.SM",
+    "nome": "Carregadeira SEM",
+    "modelo": "SEM618D",
+    "familia": "Carregadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM618D",
+    "detalhes": {
+      "Arranjo": "05",
+      "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, DE CARREGAMENTO FRONTAL, MARCA SEM, MODELO SEM618D, AUTOPROPULSADA, COMBUSTÍVEL DIESEL, COM MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG, POTENCIA NOMINAL BRUTA DE 62,5KW/84HP.",
+      "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
+      "Motor": "YTO 4.7 - 84hp",
+      "Ferramentas": "CAÇAMBA DE 1.0M³",
+      "Capacidade": "1.800Kg",
+      "Fabricação": "Importado - China",
+      "Familia": "CWL",
+      "Industria": "BCP",
+      "Disponibilidade": "⚠️ Limitada a 5 unidades",
+      "VALOR CAT EXPO": 250000,
+      "BORSO": 13000,
+      "Obs": "-"
+    }
+  },
+  {
+    "id": 1072,
+    "codigo": "SEM636D-07PLA.SM",
+    "nome": "Carregadeira SEM",
+    "modelo": "SEM636D",
+    "familia": "Carregadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM636D",
+    "detalhes": {
+      "Arranjo": "07",
+      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM MOTOR WEICHAI TIER III, MODELO WP6G125E333, POTENCIA BRUTA 92KW, CAÇAMBA DE 1.7M³ E 3 TON DE CAPACIDADE, TRANSMISSÃO SEM, 2a. VÁLVULA E AR CONDICIONADO.",
+      "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
+      "Motor": "WEICHAI",
+      "Ferramentas": "CAÇAMBA DE 1,7M³",
+      "Capacidade": "3.000Kg",
+      "Fabricação": "Importado - China",
+      "Familia": "CWL",
+      "Industria": "BCP",
+      "Disponibilidade": "⚠️ Limitada a 5 unidades",
+      "VALOR CAT EXPO": 390000,
+      "BORSO": 20000,
+      "Obs": "-"
+    }
+  },
+  {
+    "id": 1073,
+    "codigo": "SEM636D-08PL.SM",
+    "nome": "Carregadeira SEM",
+    "modelo": "SEM636D",
+    "familia": "Carregadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM636D",
+    "detalhes": {
+      "Arranjo": "08",
+      "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM ENGATE RÁPIDO-QC, MARCA SEM, MODELO SEM636D, COM MOTOR WEICHAI TIER III, MODELO WP6G125E333, POTENCIA BRUTA 92KW, CAÇAMBA DE 1.7M³ E 3 TON DE CAPACIDADE, TRANSMISSÃO SEM, 2a. VÁLVULA E AR CONDICIONADO.",
+      "Contato com o solo": "Pneus",
+      "Peso Operacional": "5.780Kg",
+      "Motor": "WEICHAI",
+      "Ferramentas": "CAÇAMBA DE 1,7M³",
+      "Capacidade": "3.000Kg",
+      "Fabricação": "Importado - China",
+      "Familia": "CWL",
+      "Industria": "BCP",
+      "Disponibilidade": "⚠️ Limitada a 5 unidades",
+      "VALOR CAT EXPO": 420000,
+      "BORSO": 25000,
+      "Obs": "-"
+    }
+  },
+  {
+    "id": 1074,
+    "codigo": "SEM656D-03B.SM",
+    "nome": "Carregadeira SEM",
+    "modelo": "SEM656D",
+    "familia": "Carregadeira",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM656D",
+    "detalhes": {
+      "Arranjo": "03",
+      "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSÃO SEM TR200 F4/R4, CAÇAMBA 3M³ PS, PESO OPERACIONAL COM CAÇAMBA PADRÃO DE 17.000KG, COMBUSTÍVEL DIESEL, 2a. VÁLVULA E AR CONDICIONADO.",
+      "Contato com o solo": "Pneus",
+      "Peso Operacional": "17.000Kg",
+      "Motor": "WEICHAI 9.7 - 206hp",
+      "Ferramentas": "CAÇAMBA 3M³ PS",
+      "Fabricação": "Importado - China",
+      "Familia": "CWL",
+      "Industria": "BCP",
+      "Disponibilidade": "⚠️ Limitada a 5 unidades",
+      "VALOR CAT EXPO": 599000,
+      "BORSO": 30000,
+      "Obs": "-"
+    }
   }
 ];
