@@ -1,5 +1,32 @@
 document.addEventListener('DOMContentLoaded', () => {
-  
+
+  // =============================================
+  // LOGIN SETUP — roda PRIMEIRO, independente de qualquer coisa
+  // =============================================
+  const loginOverlay = document.getElementById('loginOverlay');
+  const fakeLoginForm = document.getElementById('fakeLoginForm');
+
+  if (loginOverlay && fakeLoginForm) {
+    if (localStorage.getItem('sotreq_auth_token')) {
+      loginOverlay.classList.add('hidden');
+      document.body.style.overflow = '';
+    } else {
+      document.body.style.overflow = 'hidden';
+    }
+
+    fakeLoginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = fakeLoginForm.querySelector('.login-btn');
+      btn.textContent = 'Autenticando...';
+      btn.style.opacity = '0.8';
+      setTimeout(() => {
+        localStorage.setItem('sotreq_auth_token', 'true');
+        loginOverlay.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 800);
+    });
+  }
+
   // Elements
   const searchInput = document.getElementById('searchInput');
   const clearSearchBtn = document.getElementById('clearSearch');
@@ -33,14 +60,21 @@ document.addEventListener('DOMContentLoaded', () => {
     'Implementos de Mini e Retro'
   ];
 
-  // Active dataset
+  // Active dataset — seguro contra data_catexpo.js ainda não carregado
   function getDataset() {
-    return currentEvent === 'catexpo' ? maquinasCatExpo : maquinasMock;
+    if (currentEvent === 'catexpo' && typeof maquinasCatExpo !== 'undefined') {
+      return maquinasCatExpo;
+    }
+    return typeof maquinasMock !== 'undefined' ? maquinasMock : [];
   }
 
-  // Initial render
-  generateChips(getDataset());
-  renderMachines(getDataset());
+  // Initial render (seguro)
+  try {
+    generateChips(getDataset());
+    renderMachines(getDataset());
+  } catch(e) {
+    console.warn('Erro ao renderizar máquinas:', e);
+  }
 
   // =============================================
   // SIDEBAR LOGIC
@@ -529,33 +563,5 @@ document.addEventListener('DOMContentLoaded', () => {
     modalOverlay.classList.add('hidden');
     document.body.style.overflow = '';
   });
-
-  // =============================================
-  // FAKE LOGIN SYSTEM
-  // =============================================
-  const loginOverlay = document.getElementById('loginOverlay');
-  const fakeLoginForm = document.getElementById('fakeLoginForm');
-  
-  if (loginOverlay && fakeLoginForm) {
-    if (localStorage.getItem('sotreq_auth_token')) {
-      loginOverlay.classList.add('hidden');
-      document.body.style.overflow = '';
-    } else {
-      document.body.style.overflow = 'hidden';
-    }
-
-    fakeLoginForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = document.querySelector('.login-btn');
-      btn.textContent = 'Autenticando...';
-      btn.style.opacity = '0.8';
-
-      setTimeout(() => {
-          localStorage.setItem('sotreq_auth_token', 'true');
-          loginOverlay.classList.add('hidden');
-          document.body.style.overflow = '';
-      }, 800);
-    });
-  }
 
 });
