@@ -571,10 +571,10 @@ const maquinasCatExpo = [
   {
     "id": 1070,
     "codigo": "SEM618D-03.SM",
-    "nome": "Carregadeira SEM",
+    "nome": "Carregadeira",
     "modelo": "SEM618D",
     "familia": "Carregadeira",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM618D",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=SEM618D",
     "detalhes": {
       "Arranjo": "03",
       "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG, POTENCIA NOMINAL BRUTA DE 62,5KW (84HP), MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COM DISPOSITIVO DE ENGATE RÁPIDO COM PINO HORIZONTAL, CAÇAMBA, GARFO PALLET, 3a VÁLVULA E AR CONDICIONADO.",
@@ -595,10 +595,10 @@ const maquinasCatExpo = [
   {
     "id": 1071,
     "codigo": "SEM618D-05.SM",
-    "nome": "Carregadeira SEM",
+    "nome": "Carregadeira",
     "modelo": "SEM618D",
     "familia": "Carregadeira",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM618D",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=SEM618D",
     "detalhes": {
       "Arranjo": "05",
       "Configuração": "CARREGADEIRAS DE RODAS, ARTICULADAS, DE CARREGAMENTO FRONTAL, MARCA SEM, MODELO SEM618D, AUTOPROPULSADA, COMBUSTÍVEL DIESEL, COM MOTOR YTO STAGE IIIA, MODELO YT4A4ZU22/0625, COM CAPACIDADE DE CAÇAMBA DE 1.0M³ E 1.800KG, POTENCIA NOMINAL BRUTA DE 62,5KW/84HP.",
@@ -619,10 +619,10 @@ const maquinasCatExpo = [
   {
     "id": 1072,
     "codigo": "SEM636D-07PLA.SM",
-    "nome": "Carregadeira SEM",
+    "nome": "Carregadeira",
     "modelo": "SEM636D",
     "familia": "Carregadeira",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM636D",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=SEM636D",
     "detalhes": {
       "Arranjo": "07",
       "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, PINADA, MARCA SEM, MODELO SEM636D, COM MOTOR WEICHAI TIER III, MODELO WP6G125E333, POTENCIA BRUTA 92KW, CAÇAMBA DE 1.7M³ E 3 TON DE CAPACIDADE, TRANSMISSÃO SEM, 2a. VÁLVULA E AR CONDICIONADO.",
@@ -643,10 +643,10 @@ const maquinasCatExpo = [
   {
     "id": 1073,
     "codigo": "SEM636D-08PL.SM",
-    "nome": "Carregadeira SEM",
+    "nome": "Carregadeira",
     "modelo": "SEM636D",
     "familia": "Carregadeira",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM636D",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=SEM636D",
     "detalhes": {
       "Arranjo": "08",
       "Configuração": "CARREGADEIRA DE RODAS, ARTICULADA, AUTOPROPULSADA, DE CARREGAMENTO FRONTAL, COM ENGATE RÁPIDO-QC, MARCA SEM, MODELO SEM636D, COM MOTOR WEICHAI TIER III, MODELO WP6G125E333, POTENCIA BRUTA 92KW, CAÇAMBA DE 1.7M³ E 3 TON DE CAPACIDADE, TRANSMISSÃO SEM, 2a. VÁLVULA E AR CONDICIONADO.",
@@ -667,10 +667,10 @@ const maquinasCatExpo = [
   {
     "id": 1074,
     "codigo": "SEM656D-03B.SM",
-    "nome": "Carregadeira SEM",
+    "nome": "Carregadeira",
     "modelo": "SEM656D",
     "familia": "Carregadeira",
-    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=CAT+SEM656D",
+    "imagem": "https://placehold.co/600x400/FFCC09/000000?text=SEM656D",
     "detalhes": {
       "Arranjo": "03",
       "Configuração": "CARREGADEIRA DE RODAS, AUTOPROPULSADA, MARCA SEM, MODELO 656D, MOTOR WEICHAI WP10G210 9,7L COM POTENCIA DE 206HP@2000RPM, CARREGAMENTO FRONTAL SOBRE RODAS E PNEUS, TRANSMISSÃO SEM TR200 F4/R4, CAÇAMBA 3M³ PS, PESO OPERACIONAL COM CAÇAMBA PADRÃO DE 17.000KG, COMBUSTÍVEL DIESEL, 2a. VÁLVULA E AR CONDICIONADO.",
