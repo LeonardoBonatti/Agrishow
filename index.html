@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sotreq - Catálogo de Máquinas Agrishow</title>
+    <!-- PWA Settings -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FFCC09">
+    <link rel="apple-touch-icon" href="./img/icon-192.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css?v=42">
+</head>
+<body>
+
+    <!-- Login Overlay -->
+    <div id="loginOverlay">
+        <div class="login-bg-stripes"></div>
+        <div class="login-box">
+            <div class="login-header">
+                <div class="login-logo">
+                    <span class="sotreq-text">Sotreq</span>
+                    <span class="cat-logo-box">CAT</span>
+                </div>
+                <h1 class="login-title">Acesso Restrito ao Catálogo</h1>
+            </div>
+            <form id="fakeLoginForm">
+                <div class="form-group">
+                    <label class="form-label" for="matricula">Matrícula</label>
+                    <input type="text" id="matricula" class="form-input" placeholder="Digite sua matrícula Sotreq" required autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="senha">Senha</label>
+                    <input type="password" id="senha" class="form-input" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="login-btn">Entrar</button>
+            </form>
+            <div class="security-notice">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                Acesso exclusivo para força de vendas Agrishow
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="app-header">
+        <div class="logo-container">
+            <div class="brand-logo">
+                <span class="sotreq-text">Sotreq</span>
+                <span class="cat-logo-box">CAT</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="app-main">
+        
+        <!-- Search Section -->
+        <section class="search-section">
+            <h1 class="welcome-text">Consulta Rápida de Máquinas</h1>
+            <div class="search-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="searchInput" placeholder="Buscar por modelo, família ou código..." autocomplete="off">
+                <button id="clearSearch" class="clear-btn hidden">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            
+            <div id="autocompleteResults" class="autocomplete-dropdown hidden">
+                <!-- Autocomplete items dynamically injected here -->
+            </div>
+        </section>
+        
+        <!-- Category Filter (Top Level) -->
+        <section class="category-section">
+            <div class="category-tabs" id="categoryTabs">
+                <button class="category-tab active" data-category="all">Todos</button>
+                <button class="category-tab" data-category="maquinas">Máquinas</button>
+                <button class="category-tab" data-category="implementos">Implementos</button>
+            </div>
+        </section>
+
+        <section class="filters-section">
+            <div class="chips-container" id="chipsContainer">
+                <button class="chip active" data-filter="all">Todas</button>
+            </div>
+        </section>
+
+        <!-- Results / Machine List Section -->
+        <section class="results-section">
+            <div id="resultsInfo" class="results-info">Exibindo todas as máquinas</div>
+            <div class="machine-list" id="machineList">
+                <!-- Machine list cards injected here -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Machine Detail Modal Overlay -->
+    <div id="machineDetailModal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="close-modal-btn" id="closeModalBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic Content injected here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js?v=42"></script>
+    <script src="js/app.js?v=42"></script>
+    <script>
+        // Registrar Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then((reg) => console.log('ServiceWorker registrado:', reg.scope))
+                    .catch((err) => console.log('Falha no ServiceWorker:', err));
+            });
+        }
+    </script>
+</body>
+</html>
