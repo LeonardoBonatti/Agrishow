@@ -11,10 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeModalBtn = document.getElementById('closeModalBtn');
   const modalBody = document.getElementById('modalBody');
 
+  // Sidebar elements
+  const menuBtn = document.getElementById('menuBtn');
+  const sidebar = document.getElementById('sidebar');
+  const sidebarOverlay = document.getElementById('sidebarOverlay');
+  const closeSidebarBtn = document.getElementById('closeSidebar');
+  const eventBadge = document.getElementById('eventBadge');
+  const welcomeText = document.getElementById('welcomeText');
+
   // State
   let currentCategory = 'all';
   let currentFilter = 'all';
   let searchTerm = '';
+  let currentEvent = 'agrishow'; // 'agrishow' | 'catexpo'
 
   const implementFamilies = [
     'Rompedores Hidráulicos',
@@ -24,11 +33,77 @@ document.addEventListener('DOMContentLoaded', () => {
     'Implementos de Mini e Retro'
   ];
 
-  // Initial render
-  generateChips(maquinasMock);
-  renderMachines(maquinasMock);
+  // Active dataset
+  function getDataset() {
+    return currentEvent === 'catexpo' ? maquinasCatExpo : maquinasMock;
+  }
 
-  // --- Search & Autocomplete Event Listeners ---
+  // Initial render
+  generateChips(getDataset());
+  renderMachines(getDataset());
+
+  // =============================================
+  // SIDEBAR LOGIC
+  // =============================================
+  function openSidebar() {
+    sidebar.classList.add('open');
+    sidebarOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    sidebarOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  menuBtn.addEventListener('click', openSidebar);
+  closeSidebarBtn.addEventListener('click', closeSidebar);
+  sidebarOverlay.addEventListener('click', closeSidebar);
+
+  // Event switching
+  document.querySelectorAll('.sidebar-nav-item').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const event = btn.getAttribute('data-event');
+      if (event === currentEvent) { closeSidebar(); return; }
+
+      currentEvent = event;
+
+      // Update active state in nav
+      document.querySelectorAll('.sidebar-nav-item').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Update badge and theme
+      if (event === 'catexpo') {
+        eventBadge.textContent = 'CAT EXPO';
+        eventBadge.className = 'event-badge catexpo-badge';
+        document.body.classList.add('catexpo-theme');
+        welcomeText.textContent = 'Catálogo CAT EXPO';
+      } else {
+        eventBadge.textContent = 'Agrishow';
+        eventBadge.className = 'event-badge agrishow-badge';
+        document.body.classList.remove('catexpo-theme');
+        welcomeText.textContent = 'Consulta Rápida de Máquinas';
+      }
+
+      // Reset filters and reload
+      currentCategory = 'all';
+      currentFilter = 'all';
+      searchTerm = '';
+      searchInput.value = '';
+      clearSearchBtn.classList.add('hidden');
+      autocompleteResults.classList.add('hidden');
+      document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+      document.querySelector('.category-tab[data-category="all"]').classList.add('active');
+
+      generateChips(getDataset());
+      renderMachines(getDataset());
+      closeSidebar();
+    });
+  });
+
+  // =============================================
+  // SEARCH & AUTOCOMPLETE
+  // =============================================
   searchInput.addEventListener('input', (e) => {
     searchTerm = e.target.value.trim().toLowerCase();
     
@@ -44,7 +119,6 @@ document.addEventListener('DOMContentLoaded', () => {
       autocompleteResults.classList.add('hidden');
     }
     
-    // Apply filter on the fly
     applyFilters();
   });
 
@@ -56,7 +130,9 @@ document.addEventListener('DOMContentLoaded', () => {
     applyFilters();
   });
 
-  // --- Dynamic Filtering Chips ---
+  // =============================================
+  // CHIPS & CATEGORY FILTERS
+  // =============================================
   function generateChips(machines) {
     const activeChipText = currentFilter;
     chipsContainer.innerHTML = '<button class="chip active" data-filter="all">Todas</button>';
@@ -84,7 +160,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // --- Category Tabs Logic ---
   const categoryTabs = document.getElementById('categoryTabs');
   if (categoryTabs) {
     categoryTabs.addEventListener('click', (e) => {
@@ -101,38 +176,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // --- Filtering ---
   chipsContainer.addEventListener('click', (e) => {
     if (e.target.classList.contains('chip')) {
-      // Remove active class from all
       chipsContainer.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
-      // Add active class to clicked
       e.target.classList.add('active');
-      // Update state
       currentFilter = e.target.getAttribute('data-filter');
       applyFilters();
     }
   });
 
   function applyFilters() {
-    let filtered = maquinasMock;
+    let filtered = getDataset();
 
-    // 1. Filter by category
     if (currentCategory === 'maquinas') {
       filtered = filtered.filter(m => !implementFamilies.includes(m.familia));
     } else if (currentCategory === 'implementos') {
       filtered = filtered.filter(m => implementFamilies.includes(m.familia));
     }
 
-    // 2. Update chips based on category
     generateChips(filtered);
 
-    // 3. Filter by family (chip)
     if (currentFilter !== 'all') {
       filtered = filtered.filter(m => m.familia === currentFilter);
     }
 
-    // 4. Filter by search term
     if (searchTerm) {
       const searchWords = searchTerm.split(' ').filter(w => w.length > 0);
       filtered = filtered.filter(m => {
@@ -141,7 +208,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    // Update info text
     if (currentFilter === 'all' && !searchTerm && currentCategory === 'all') {
       resultsInfo.textContent = `Exibindo todas as máquinas (${filtered.length})`;
     } else {
@@ -151,7 +217,9 @@ document.addEventListener('DOMContentLoaded', () => {
     renderMachines(filtered);
   }
 
-  // --- Render logic ---
+  // =============================================
+  // RENDER CARDS
+  // =============================================
   function renderMachines(machines) {
     machineList.innerHTML = '';
 
@@ -171,8 +239,18 @@ document.addEventListener('DOMContentLoaded', () => {
     machines.forEach(machine => {
       const card = document.createElement('article');
       card.className = 'machine-card';
-      // Open modal when the whole card is clicked
       card.addEventListener('click', () => openModal(machine));
+
+      // For CAT EXPO, show price on card
+      const priceField = machine.detalhes && machine.detalhes['VALOR CAT EXPO'];
+      const priceHtml = priceField
+        ? `<div class="mc-detail-item">
+             <span class="mcd-label">Preço CAT EXPO</span>
+             <span class="mcd-val" style="color: var(--cat-expo-blue); font-weight: 700;">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(priceField)}</span>
+           </div>`
+        : '';
+
+      const arranjo = machine.detalhes && machine.detalhes['Arranjo'] ? machine.detalhes['Arranjo'] : '-';
 
       card.innerHTML = `
         <div class="mc-img-box">
@@ -191,13 +269,13 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="mc-stripe"></div>
           <div class="mc-details-grid">
             <div class="mc-detail-item">
+              <span class="mcd-label">Arranjo</span>
+              <span class="mcd-val">${arranjo}</span>
+            </div>
+            ${priceHtml || `<div class="mc-detail-item">
               <span class="mcd-label">Indústria</span>
               <span class="mcd-val">${machine.detalhes && machine.detalhes['Industria'] ? machine.detalhes['Industria'] : '-'}</span>
-            </div>
-            <div class="mc-detail-item">
-              <span class="mcd-label">Arranjo</span>
-              <span class="mcd-val" title="${machine.detalhes && machine.detalhes['Arranjo'] ? machine.detalhes['Arranjo'] : ''}">${machine.detalhes && machine.detalhes['Arranjo'] ? String(machine.detalhes['Arranjo']).split(' ')[0] + '...' : '-'}</span>
-            </div>
+            </div>`}
           </div>
           <div class="mc-action">
             <button class="btn-primary">Ver Ficha Técnica</button>
@@ -210,10 +288,12 @@ document.addEventListener('DOMContentLoaded', () => {
     machineList.appendChild(fragment);
   }
 
-  // --- Autocomplete ---
+  // =============================================
+  // AUTOCOMPLETE
+  // =============================================
   function showAutocomplete(term) {
     const searchWords = term.split(' ').filter(w => w.length > 0);
-    const matches = maquinasMock.filter(m => {
+    const matches = getDataset().filter(m => {
       const fullString = `${m.nome} ${m.modelo} ${m.codigo}`.toLowerCase();
       return searchWords.every(word => fullString.includes(word));
     });
@@ -242,16 +322,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Hide autocomplete when clicking outside
   document.addEventListener('click', (e) => {
     if (!e.target.closest('.search-section')) {
       autocompleteResults.classList.add('hidden');
     }
   });
 
-  // --- Modal Logic ---
+  // =============================================
+  // MODAL LOGIC
+  // =============================================
   function openModal(machine) {
-    const commercialKeys = ['VALOR FEIRA', 'BORSO', 'Preço CPQ 14%', 'SPAR', 'Desconto Vigente PSC'];
+    const isCatExpo = currentEvent === 'catexpo';
+    const commercialKeys = ['VALOR FEIRA', 'VALOR CAT EXPO', 'BORSO', 'Preço CPQ 14%', 'SPAR', 'Desconto Vigente PSC'];
     let techHtml = '';
     let currHtml = '';
 
@@ -260,13 +342,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (value === undefined || value === '-' || value === null || String(value).trim() === '') return;
         
         let valStr = String(value);
-        if (key.toLowerCase().includes('preço') || key.toLowerCase().includes('spar') || key.toLowerCase().includes('preco') || key.toUpperCase() === 'VALOR FEIRA' || key.toUpperCase() === 'BORSO' || key.toLowerCase().includes('acima')) {
-          const num = parseFloat(value);
-          if (!isNaN(num)) {
+
+        // Format currency fields
+        if (key.toLowerCase().includes('preço') || key.toLowerCase().includes('spar') || key.toLowerCase().includes('preco') || key.toUpperCase() === 'VALOR FEIRA' || key.toUpperCase() === 'VALOR CAT EXPO' || key.toUpperCase() === 'BORSO' || key.toLowerCase().includes('acima')) {
+          const num = parseFloat(String(value).replace(/\./g, '').replace(',', '.'));
+          if (!isNaN(num) && num > 100) {
             valStr = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(num);
           }
         }
 
+        // Format percentage fields
         if (key.toLowerCase().includes('desconto') || key.toLowerCase().includes('margem') || key.toLowerCase().includes('buydown')) {
           const num = parseFloat(value);
           if (!isNaN(num) && num < 10 && num > -10) { 
@@ -283,7 +368,6 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         `;
 
-        // Case-insensitive check to categorize the key
         const isCommercial = commercialKeys.some(cKey => cKey.toLowerCase() === key.toLowerCase()) ||
                              key.toLowerCase().includes('desconto') ||
                              key.toLowerCase().includes('margem') ||
@@ -292,7 +376,10 @@ document.addEventListener('DOMContentLoaded', () => {
                              key.toLowerCase().includes('buydown') ||
                              key.toLowerCase().includes('preço') ||
                              key.toLowerCase().includes('preco') ||
-                             key.toLowerCase().includes('martelo');
+                             key.toLowerCase().includes('martelo') ||
+                             key === 'BD' ||
+                             key === 'SPAR' ||
+                             key === 'Obs';
 
         if (isCommercial) {
           currHtml += itemHtml;
@@ -305,6 +392,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!currHtml) {
       currHtml = `<div class="empty-state" style="padding: 1rem 0;"><h3>Valores não disponíveis</h3></div>`;
     }
+
+    // For CAT EXPO: highlight price at top of commercial tab
+    const expoPriceVal = machine.detalhes && machine.detalhes['VALOR CAT EXPO'];
+    const expoPriceHighlight = isCatExpo && expoPriceVal ? `
+      <div style="background: var(--cat-expo-blue); border-radius: var(--radius-md); padding: 1rem 1.25rem; margin-bottom: 1.25rem; text-align: center;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px;">Preço CAT EXPO</div>
+        <div style="font-size: 1.75rem; font-weight: 800; color: #fff;">${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(expoPriceVal)}</div>
+        ${machine.detalhes['Obs'] && machine.detalhes['Obs'] !== '-' ? `<div style="font-size: 0.78rem; color: rgba(255,255,255,0.75); margin-top: 6px;">⚠️ ${machine.detalhes['Obs']}</div>` : ''}
+      </div>
+    ` : '';
+
+    // Build tab label based on event
+    const valoresLabel = isCatExpo ? 'Preço & Condições' : 'Valores & Condições';
 
     modalBody.innerHTML = `
       <div class="modal-hero">
@@ -319,7 +419,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         <div class="modal-tabs">
           <button class="modal-tab-btn active" data-target="tab-tech">Ficha Técnica</button>
-          <button class="modal-tab-btn" data-target="tab-com">Valores & Condições</button>
+          <button class="modal-tab-btn" data-target="tab-com">${valoresLabel}</button>
           <button class="modal-tab-btn" data-target="tab-cdc">Banco CAT</button>
         </div>
 
@@ -330,7 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="spec-value">${machine.modelo}</div>
             </div>
             <div class="modal-spec-item">
-              <span class="spec-label">Material</span>
+              <span class="spec-label">Código</span>
               <div class="spec-value">${machine.codigo}</div>
             </div>
             ${techHtml}
@@ -339,6 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <div id="tab-com" class="modal-tab-content">
           <div class="modal-spec-list">
+            ${expoPriceHighlight}
             ${currHtml}
           </div>
         </div>
@@ -421,7 +522,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     modalOverlay.classList.remove('hidden');
-    // Prevent background scrolling
     document.body.style.overflow = 'hidden';
   }
 
@@ -430,7 +530,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   });
 
-  // --- FAKE LOGIN SYSTEM ---
+  // =============================================
+  // FAKE LOGIN SYSTEM
+  // =============================================
   const loginOverlay = document.getElementById('loginOverlay');
   const fakeLoginForm = document.getElementById('fakeLoginForm');
   

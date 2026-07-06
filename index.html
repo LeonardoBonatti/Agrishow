@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Sotreq - Catálogo de Máquinas Agrishow</title>
+    <title>Sotreq - Catálogo de Máquinas</title>
     <!-- PWA Settings -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#FFCC09">
@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css?v=42">
+    <link rel="stylesheet" href="css/style.css?v=43">
 </head>
 <body>
 
@@ -42,26 +42,65 @@
             </form>
             <div class="security-notice">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                Acesso exclusivo para força de vendas Agrishow
+                Acesso exclusivo para força de vendas Sotreq
             </div>
         </div>
     </div>
 
+    <!-- Sidebar Overlay -->
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">
+                <span class="sotreq-text">Sotreq</span>
+                <span class="cat-logo-box">CAT</span>
+            </div>
+            <button id="closeSidebar" class="sidebar-close-btn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <p class="sidebar-section-label">Selecionar Evento</p>
+        <nav class="sidebar-nav">
+            <button class="sidebar-nav-item active" id="navAgrishow" data-event="agrishow">
+                <span class="sidebar-nav-icon">🌾</span>
+                <div class="sidebar-nav-text">
+                    <span class="sidebar-nav-title">Agrishow</span>
+                    <span class="sidebar-nav-sub">Ribeirão Preto</span>
+                </div>
+                <span class="sidebar-nav-check">✓</span>
+            </button>
+            <button class="sidebar-nav-item" id="navCatExpo" data-event="catexpo">
+                <span class="sidebar-nav-icon">🏗️</span>
+                <div class="sidebar-nav-text">
+                    <span class="sidebar-nav-title">CAT EXPO</span>
+                    <span class="sidebar-nav-sub">Catálogo do Evento</span>
+                </div>
+                <span class="sidebar-nav-check">✓</span>
+            </button>
+        </nav>
+    </aside>
+
     <!-- Header / Navbar -->
     <header class="app-header">
+        <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
         <div class="logo-container">
             <div class="brand-logo">
                 <span class="sotreq-text">Sotreq</span>
                 <span class="cat-logo-box">CAT</span>
             </div>
         </div>
+        <div id="eventBadge" class="event-badge agrishow-badge">Agrishow</div>
     </header>
 
     <main class="app-main">
         
         <!-- Search Section -->
         <section class="search-section">
-            <h1 class="welcome-text">Consulta Rápida de Máquinas</h1>
+            <h1 class="welcome-text" id="welcomeText">Consulta Rápida de Máquinas</h1>
             <div class="search-box">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                 <input type="text" id="searchInput" placeholder="Buscar por modelo, família ou código..." autocomplete="off">
@@ -113,8 +152,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/data.js?v=42"></script>
-    <script src="js/app.js?v=42"></script>
+    <script src="js/data.js?v=43"></script>
+    <script src="js/data_catexpo.js?v=43"></script>
+    <script src="js/app.js?v=43"></script>
     <script>
         // Registrar Service Worker
         if ('serviceWorker' in navigator) {
